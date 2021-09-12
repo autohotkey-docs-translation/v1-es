@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Functions</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215803Z" creationid="yo1el" creationdate="20210912T215803Z">
+        <seg>Funciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Getting started:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213127Z" creationid="yo1el" creationdate="20210912T213111Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213304Z" creationid="yo1el" creationdate="20210912T213304Z">
         <seg>Tutorial para principiantes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Variables and expressions</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215756Z" creationid="yo1el" creationdate="20210912T215756Z">
+        <seg>Variables and expresiones</seg>
       </tuv>
     </tu>
     <tu>
