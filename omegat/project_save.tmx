@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Quick Reference</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213011Z" creationid="yo1el" creationdate="20210912T213011Z">
+        <seg>Referencia rápida</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Quick Reference | AutoHotkey</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T212652Z" creationid="yo1el" creationdate="20210912T212652Z">
@@ -110,10 +118,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Software License:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T212944Z" creationid="yo1el" creationdate="20210912T212944Z">
+        <seg>Licencia de Software:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This page contains information about the currently used version, the authors, the license, and a quick overview of the documentation.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T211508Z" creationid="yo1el" creationdate="20210912T210730Z">
         <seg>Esta página contiene información sobre la versión utilizada actualmente, los autores, la licencia y una descripción general rápida de la documentación .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Version</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T212800Z" creationid="yo1el" creationdate="20210912T212800Z">
+        <seg>Versión</seg>
       </tuv>
     </tu>
     <tu>
@@ -322,6 +346,14 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080214Z" creationid="Ragnar-F" creationdate="20210912T080214Z">
         <seg>};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>©2003-2014 Chris Mallett, portions ©&lt;a0&gt;AutoIt Team&lt;/a0&gt; and the AHK community</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T212913Z" creationid="yo1el" creationdate="20210912T212913Z">
+        <seg>©2003-2014 Chris Mallett, porciones ©&lt;a0&gt;AutoIt Team&lt;/a0&gt; y la comunidad de AHK</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
