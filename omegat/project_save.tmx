@@ -286,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>So thanks to Jon and the other AutoIt authors for those as well.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T234957Z" creationid="yo1el" creationdate="20210912T234957Z">
+        <seg>Así que gracias a Jon y a los otros autores de AutoIt por ello.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Software License:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T212944Z" creationid="yo1el" creationdate="20210912T212944Z">
