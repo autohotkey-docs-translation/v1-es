@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>In addition, many of AutoHotkey's enhancements to the AutoIt v2 command set, as well as the Window Spy and the old script compiler, were adapted directly from the AutoIt v3 source code.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T234709Z" creationid="yo1el" creationdate="20210912T234709Z">
+        <seg>Además, muchas de las mejoras de AutoHotkey al conjunto de comandos de AutoIt v2, así como Window Spy y el antiguo compilador de scripts, se adaptaron directamente del código fuente de AutoIt v3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Index.hhk</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075806Z" creationid="Ragnar-F" creationdate="20210912T075806Z">
