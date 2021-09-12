@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>explanations of various things you need to know.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T214617Z" creationid="yo1el" creationdate="20210912T214617Z">
+        <seg>explicaciones de varias cosas que necesitas saber.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>indexData = [</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080255Z" creationid="Ragnar-F" creationdate="20210912T080255Z">
