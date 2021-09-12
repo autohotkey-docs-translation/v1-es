@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hotkeys (mouse, joystick and keyboard shortcuts)</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T220054Z" creationid="yo1el" creationdate="20210912T220054Z">
+        <seg>Teclas de acceso rápido (atajos de ratón, joystick y teclado)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>How to use the program</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213233Z" creationid="yo1el" creationdate="20210912T213233Z">
@@ -150,6 +158,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Interactive debugging</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215900Z" creationid="yo1el" creationdate="20210912T215900Z">
+        <seg>Depuración interactiva</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Keyboard and mouse:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215921Z" creationid="yo1el" creationdate="20210912T215921Z">
+        <seg>Teclado y ratón:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Miscellaneous topics</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215234Z" creationid="yo1el" creationdate="20210912T215234Z">
@@ -162,6 +186,14 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080115Z" creationid="Ragnar-F" creationdate="20210912T080115Z">
         <seg>NUL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Objects</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215812Z" creationid="yo1el" creationdate="20210912T215812Z">
+        <seg>Objetos</seg>
       </tuv>
     </tu>
     <tu>
