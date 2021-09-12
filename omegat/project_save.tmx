@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Command and function list</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215739Z" creationid="yo1el" creationdate="20210912T215739Z">
+        <seg>Lista de comandos y funciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Contents</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075743Z" creationid="Ragnar-F" creationdate="20210912T075743Z">
