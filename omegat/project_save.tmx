@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hotstrings and auto-replace</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T233856Z" creationid="yo1el" creationdate="20210912T233856Z">
+        <seg>Hotstrings y reemplazo automático</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>How to use the program</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213233Z" creationid="yo1el" creationdate="20210912T213233Z">
