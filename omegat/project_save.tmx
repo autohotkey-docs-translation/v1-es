@@ -128,8 +128,8 @@
       <tuv lang="en">
         <seg>Hotkeys (mouse, joystick and keyboard shortcuts)</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210912T220054Z" creationid="yo1el" creationdate="20210912T220054Z">
-        <seg>Teclas de acceso rápido (atajos de ratón, joystick y teclado)</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T233916Z" creationid="yo1el" creationdate="20210912T220054Z">
+        <seg>Hotkeys (atajos de ratón, joystick y teclado)</seg>
       </tuv>
     </tu>
     <tu>
@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>List of keys, mouse buttons and joystick controls</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T234046Z" creationid="yo1el" creationdate="20210912T234046Z">
+        <seg>Lista de teclas, botones del mouse y controles de joystick</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Miscellaneous topics</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215234Z" creationid="yo1el" creationdate="20210912T215234Z">
@@ -218,6 +226,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T212652Z" creationid="yo1el" creationdate="20210912T212652Z">
         <seg>Referencia Rápida | AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remapping keys and buttons</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T233943Z" creationid="yo1el" creationdate="20210912T233943Z">
+        <seg>Reasignación de teclas y botones</seg>
       </tuv>
     </tu>
     <tu>
