@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;Concepts and conventions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213511Z" creationid="yo1el" creationdate="20210912T213511Z">
+        <seg>&lt;a0&gt;Conceptos y convenciones&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>AutoHotkey Help</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080040Z" creationid="Ragnar-F" creationdate="20210912T080040Z">
@@ -392,8 +400,8 @@
       <tuv lang="en">
         <seg>©2003-2014 Chris Mallett, portions ©&lt;a0&gt;AutoIt Team&lt;/a0&gt; and the AHK community</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210912T212913Z" creationid="yo1el" creationdate="20210912T212913Z">
-        <seg>©2003-2014 Chris Mallett, porciones ©&lt;a0&gt;AutoIt Team&lt;/a0&gt; y la comunidad de AHK</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T214538Z" creationid="yo1el" creationdate="20210912T212913Z">
+        <seg>©2003-2014 Chris Mallett, porciones ©&lt;a0&gt;AutoIt Team&lt;/a0&gt; y la comunidad de AHK - Traducción: LordYoElGrande</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
