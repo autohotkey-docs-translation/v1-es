@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Finally, AutoHotkey would not be what it is today without &lt;a0&gt;these other individuals&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T235152Z" creationid="yo1el" creationdate="20210912T235152Z">
+        <seg>Finalmente, AutoHotkey no sería lo que es hoy sin &lt;a0&gt;estos otros individuos&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Frequently asked questions</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213407Z" creationid="yo1el" creationdate="20210912T213407Z">
