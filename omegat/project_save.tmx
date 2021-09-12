@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;Scripting language&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T214723Z" creationid="yo1el" creationdate="20210912T214723Z">
+        <seg>&lt;a0&gt;Lenguaje de scripting&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>AutoHotkey Help</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080040Z" creationid="Ragnar-F" creationdate="20210912T080040Z">
@@ -122,6 +130,14 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075806Z" creationid="Ragnar-F" creationdate="20210912T075806Z">
         <seg>Index.hhk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Miscellaneous topics</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T215234Z" creationid="yo1el" creationdate="20210912T215234Z">
+        <seg>Temas diversos</seg>
       </tuv>
     </tu>
     <tu>
@@ -362,6 +378,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T214617Z" creationid="yo1el" creationdate="20210912T214617Z">
         <seg>explicaciones de varias cosas que necesitas saber.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>how to write scripts.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T214743Z" creationid="yo1el" creationdate="20210912T214743Z">
+        <seg>Cómo escribir scripts.</seg>
       </tuv>
     </tu>
     <tu>
