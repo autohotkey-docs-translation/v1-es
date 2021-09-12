@@ -78,6 +78,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Frequently asked questions</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213407Z" creationid="yo1el" creationdate="20210912T213407Z">
+        <seg>Preguntas frecuentes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Getting started:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213127Z" creationid="yo1el" creationdate="20210912T213111Z">
+        <seg>Empezando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>How to use the program</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213233Z" creationid="yo1el" creationdate="20210912T213233Z">
+        <seg>Cómo utilizar el programa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>IE=edge</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075458Z" creationid="Ragnar-F" creationdate="20210912T075458Z">
@@ -126,10 +150,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Text editors with AutoHotkey support</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213340Z" creationid="yo1el" creationdate="20210912T213340Z">
+        <seg>Editores de texto con soporte para AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This page contains information about the currently used version, the authors, the license, and a quick overview of the documentation.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T211508Z" creationid="yo1el" creationdate="20210912T210730Z">
         <seg>Esta página contiene información sobre la versión utilizada actualmente, los autores, la licencia y una descripción general rápida de la documentación .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tutorial for beginners</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210912T213304Z" creationid="yo1el" creationdate="20210912T213304Z">
+        <seg>Tutorial para principiantes</seg>
       </tuv>
     </tu>
     <tu>
