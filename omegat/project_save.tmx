@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Look for &lt;b0&gt;AutoHotkey.chm&lt;/b0&gt; or a file that says AutoHotkey and has a yellow question mark on it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220532Z" creationid="yo1el" creationdate="20210921T220532Z">
+        <seg>Busca &lt;b0&gt;AutoHotkey.chm&lt;/b0&gt; o un archivo que diga AutoHotkey y tenga un signo de interrogación amarillo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Method 1:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T214244Z" creationid="yo1el" creationdate="20210921T214244Z">
