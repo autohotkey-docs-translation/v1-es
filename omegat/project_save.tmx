@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Find the newly created file on your desktop and right-click it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182716Z" creationid="yo1el" creationdate="20210921T182716Z">
+        <seg>Encuentra el archivo recién creado en tu escritorio y haz click derecho sobre él.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Finding your AHK version</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161419Z" creationid="yo1el" creationdate="20210921T161419Z">
@@ -306,6 +314,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181146Z" creationid="yo1el" creationdate="20210921T180709Z">
         <seg>Para una instrucción en video, mira &lt;a0&gt;Install and Hello World&lt;/a0&gt; en YouTube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182036Z" creationid="yo1el" creationdate="20210921T182036Z">
+        <seg>Por ejemplo:</seg>
       </tuv>
     </tu>
     <tu>
@@ -494,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It must end with a .ahk extension.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182027Z" creationid="yo1el" creationdate="20210921T182027Z">
+        <seg>Debe terminar con unaextensión .ahk.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Keep going until you see an Install button.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180505Z" creationid="yo1el" creationdate="20210921T180505Z">
@@ -546,6 +570,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160737Z" creationid="yo1el" creationdate="20210921T160737Z">
         <seg>Múltiples hotkeys/hotstrings por archivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>MyScript.ahk</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182044Z" creationid="yo1el" creationdate="20210921T182044Z">
+        <seg>MiScript.ahk</seg>
       </tuv>
     </tu>
     <tu>
