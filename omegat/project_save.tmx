@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A hotkey is a key that is hot to the touch.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220931Z" creationid="yo1el" creationdate="20210921T220931Z">
+        <seg>Una hotkey es una tecla que está caliente al tacto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A special thanks to Jonathan Bennett, whose generosity in releasing AutoIt v2 as free software in 1999 served as an inspiration and time-saver for myself and many others worldwide.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234600Z" creationid="yo1el" creationdate="20210912T234600Z">
@@ -568,8 +576,8 @@
       <tuv lang="en">
         <seg>Hotkeys &amp; Hotstrings</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T180844Z" creationid="yo1el" creationdate="20210921T160523Z">
-        <seg>Hotkeys (teclas de acceso rápido) &amp; Hotstrings (cadenas de cadenas de auto-reemplazo) </seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220820Z" creationid="yo1el" creationdate="20210921T160523Z">
+        <seg>Hotkeys y Hotstrings</seg>
       </tuv>
     </tu>
     <tu>
@@ -698,6 +706,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T182027Z" creationid="yo1el" creationdate="20210921T182027Z">
         <seg>Debe terminar con unaextensión .ahk.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Just kidding.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T221025Z" creationid="yo1el" creationdate="20210921T221025Z">
+        <seg>Es broma.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1170,6 +1186,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T183333Z" creationid="yo1el" creationdate="20210921T183333Z">
         <seg>Luego profundizaremos más.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>What is a hotkey?</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220849Z" creationid="yo1el" creationdate="20210921T220849Z">
+        <seg>¿Qué es una hotkey?</seg>
       </tuv>
     </tu>
     <tu>
