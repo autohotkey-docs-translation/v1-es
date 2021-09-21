@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Examples</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160745Z" creationid="yo1el" creationdate="20210921T160745Z">
+        <seg>Ejemplos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Finally, AutoHotkey would not be what it is today without &lt;a0&gt;these other individuals&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T235152Z" creationid="yo1el" creationdate="20210912T235152Z">
@@ -174,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Games</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160857Z" creationid="yo1el" creationdate="20210921T160857Z">
+        <seg>Juegos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Getting started:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213127Z" creationid="yo1el" creationdate="20210912T213111Z">
@@ -184,8 +200,8 @@
       <tuv lang="en">
         <seg>Hotkeys &amp; Hotstrings</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T160613Z" creationid="yo1el" creationdate="20210921T160523Z">
-        <seg>2.Hotkeys (teclas de acceso rápido) &amp; Hotstrings(cadenas de cadenas de auto-reemplazo) </seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160626Z" creationid="yo1el" creationdate="20210921T160523Z">
+        <seg>2.Hotkeys (teclas de acceso rápido) &amp; Hotstrings (cadenas de cadenas de auto-reemplazo) </seg>
       </tuv>
     </tu>
     <tu>
@@ -270,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Keys and their mysterious symbols</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160659Z" creationid="yo1el" creationdate="20210921T160659Z">
+        <seg>Las teclas y sus misteriosos símbolos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Learn how to download and install AutoHotkey, to create a script, to use hotkeys and hotstrings, to send keystrokes, to run programs, etc.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160558Z" creationid="yo1el" creationdate="20210921T155808Z">
@@ -290,6 +314,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215234Z" creationid="yo1el" creationdate="20210912T215234Z">
         <seg>Temas diversos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Multiple hotkeys/hotstrings per file</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160737Z" creationid="yo1el" creationdate="20210921T160737Z">
+        <seg>Múltiples hotkeys/hotstrings por archivo</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,6 +378,22 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T233943Z" creationid="yo1el" creationdate="20210912T233943Z">
         <seg>Reasignación de teclas y botones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Running Programs &amp; Websites</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160950Z" creationid="yo1el" creationdate="20210921T160950Z">
+        <seg>Ejecutando Programas &amp; Sitios Web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sending Keystrokes</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160852Z" creationid="yo1el" creationdate="20210921T160852Z">
+        <seg>Enviando Keystrokes (pulsaciones de teclas)</seg>
       </tuv>
     </tu>
     <tu>
@@ -418,6 +466,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T212800Z" creationid="yo1el" creationdate="20210912T212800Z">
         <seg>Versión</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Window specific hotkeys/hotstrings</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160707Z" creationid="yo1el" creationdate="20210921T160707Z">
+        <seg>b.Hotkeys/hotstrings para una ventana específica</seg>
       </tuv>
     </tu>
     <tu>
