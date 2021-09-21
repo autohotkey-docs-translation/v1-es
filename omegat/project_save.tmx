@@ -638,6 +638,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hotstrings, as mentioned above, can also launch scripted actions.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T224100Z" creationid="yo1el" creationdate="20210921T224100Z">
+        <seg>Los hotstrings, como se mencionó anteriormente, también pueden iniciar acciones programadas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>How to create a script</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160232Z" creationid="yo1el" creationdate="20210921T160232Z">
