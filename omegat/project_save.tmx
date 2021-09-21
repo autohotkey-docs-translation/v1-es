@@ -214,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Continue on to section b.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180611Z" creationid="yo1el" creationdate="20210921T180541Z">
+        <seg>Continúa con la sección b.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Creating Objects</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161237Z" creationid="yo1el" creationdate="20210921T161237Z">
@@ -430,6 +438,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It has support for non-English letters and numbers (characters).</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180423Z" creationid="yo1el" creationdate="20210921T180423Z">
+        <seg>Tiene soporte para letras y números (caracteres) no ingleses.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Keep going until you see an Install button.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180505Z" creationid="yo1el" creationdate="20210921T180505Z">
+        <seg>Continúa hasta que veas un botón Install.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Keyboard and mouse:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215921Z" creationid="yo1el" creationdate="20210912T215921Z">
@@ -490,6 +514,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215812Z" creationid="yo1el" creationdate="20210912T215812Z">
         <seg>Objetos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Once done, great!</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180620Z" creationid="yo1el" creationdate="20210921T180525Z">
+        <seg>Una vez hecho esto, ¡genial!</seg>
       </tuv>
     </tu>
     <tu>
