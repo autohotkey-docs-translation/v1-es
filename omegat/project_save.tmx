@@ -1110,6 +1110,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>That's fancy talk for &lt;i0&gt;"do pretty much anything"&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T224412Z" creationid="yo1el" creationdate="20210921T224412Z">
+        <seg>Eso es una forma elegante de decir que pueden  &lt;i0&gt;"hacer casi cualquier cosa"&lt;/i0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Basics</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160204Z" creationid="yo1el" creationdate="20210921T160204Z">
