@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>1 - The Basics</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T174248Z" creationid="yo1el" creationdate="20210921T174248Z">
+        <seg>1 - Primeros Pasos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>1.1 or later</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075735Z" creationid="Ragnar-F" creationdate="20210912T075735Z">
@@ -126,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Before we begin our journey, let me give some advice.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T174352Z" creationid="yo1el" creationdate="20210921T174352Z">
+        <seg>Antes de comenzar nuestro viaje, permíteme darte algunos consejos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Beginner Tutorial | AutoHotkey</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T155855Z" creationid="yo1el" creationdate="20210921T155855Z">
@@ -202,6 +218,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161419Z" creationid="yo1el" creationdate="20210921T161419Z">
         <seg>Encontrando tu versión de AHK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For optimal learning power, it is advised that you read the text and &lt;b0&gt;try&lt;/b0&gt; the code.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T174616Z" creationid="yo1el" creationdate="20210921T174616Z">
+        <seg>Para un aprendizaje óptimo, se recomienda leer el texto y &lt;b0&gt;probar&lt;/b0&gt; el código.</seg>
       </tuv>
     </tu>
     <tu>
@@ -530,6 +554,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T211508Z" creationid="yo1el" creationdate="20210912T210730Z">
         <seg>Esta página contiene información sobre la versión utilizada actualmente, los autores, la licencia y una descripción general rápida de la documentación .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Throughout this tutorial you will see a lot of text and a lot of code.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T174452Z" creationid="yo1el" creationdate="20210921T174452Z">
+        <seg>A lo largo de este tutorial, verás mucho texto y mucho código.</seg>
       </tuv>
     </tu>
     <tu>
