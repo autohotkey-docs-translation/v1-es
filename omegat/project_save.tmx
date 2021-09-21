@@ -96,8 +96,8 @@
       <tuv lang="en">
         <seg>&lt;c0&gt;Send, My First Script&lt;/c0&gt; is how you &lt;s1&gt;send&lt;/s1&gt; keystrokes.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T183849Z" creationid="yo1el" creationdate="20210921T183849Z">
-        <seg>&lt;c0&gt;Send, Mi Primer Script&lt;/c0&gt; es la forma en que se &lt;s1&gt;envía&lt;/s1&gt; pulsaciones de teclas (keystrokes).</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T212533Z" creationid="yo1el" creationdate="20210921T183849Z">
+        <seg>&lt;c0&gt;Send, Mi Primer Script&lt;/c0&gt; es la forma en que se &lt;s1&gt;envían&lt;/s1&gt; pulsaciones de teclas (keystrokes).</seg>
       </tuv>
     </tu>
     <tu>
@@ -590,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It literally &lt;s1&gt;stops&lt;/s1&gt; code from going any further, to the lines below.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T212627Z" creationid="yo1el" creationdate="20210921T212525Z">
+        <seg>Literalmente &lt;s1&gt;impide&lt;/s1&gt; que el código vaya más allá, a las líneas siguientes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>It must end with a .ahk extension.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T182027Z" creationid="yo1el" creationdate="20210921T182027Z">
@@ -774,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Save the File.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T212730Z" creationid="yo1el" creationdate="20210921T212730Z">
+        <seg>Guarda el archivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Send, My First Script</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T183309Z" creationid="yo1el" creationdate="20210921T183309Z">
@@ -922,6 +938,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T212454Z" creationid="yo1el" creationdate="20210921T212454Z">
         <seg>Éste se convertirá en tu mejor amigo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This will prevent many issues when you start having a lot of stuff in your scripts.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T212717Z" creationid="yo1el" creationdate="20210921T212717Z">
+        <seg>Esto evitarámuchos problemas cuando empieces a tener un montón decosas en tus scripts.</seg>
       </tuv>
     </tu>
     <tu>
