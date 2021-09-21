@@ -126,10 +126,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Code blocks</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161057Z" creationid="yo1el" creationdate="20210921T161057Z">
+        <seg>Bloques de código</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Command and function list</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215739Z" creationid="yo1el" creationdate="20210912T215739Z">
         <seg>Lista de comandos y funciones</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Commands vs. Functions()</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161039Z" creationid="yo1el" creationdate="20210921T161039Z">
+        <seg>Comandos vs. Functions()</seg>
       </tuv>
     </tu>
     <tu>
@@ -194,6 +210,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213127Z" creationid="yo1el" creationdate="20210912T213111Z">
         <seg>Empezando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Getting user input</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161156Z" creationid="yo1el" creationdate="20210921T161156Z">
+        <seg>Obtener información del usuario</seg>
       </tuv>
     </tu>
     <tu>
@@ -342,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Other Examples?</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161225Z" creationid="yo1el" creationdate="20210921T161225Z">
+        <seg>¿Otros ejemplos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Other:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234102Z" creationid="yo1el" creationdate="20210912T234102Z">
@@ -466,6 +498,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T212800Z" creationid="yo1el" creationdate="20210912T212800Z">
         <seg>Versión</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When to use percents</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161120Z" creationid="yo1el" creationdate="20210921T161120Z">
+        <seg>Cuándo usar porcentajes</seg>
       </tuv>
     </tu>
     <tu>
