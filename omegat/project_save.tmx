@@ -862,6 +862,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Probably &lt;b1&gt;C:\&lt;/b1&gt; drive.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220151Z" creationid="yo1el" creationdate="20210921T220151Z">
+        <seg>Probablemente, la unidad &lt;b1&gt;C:\&lt;/b1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Quick Reference</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213038Z" creationid="yo1el" creationdate="20210912T213011Z">
@@ -914,6 +922,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T212730Z" creationid="yo1el" creationdate="20210921T212730Z">
         <seg>Guarda el archivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Search within all &lt;b0&gt;Program Files&lt;/b0&gt; folders for &lt;b1&gt;AutoHotkey&lt;/b1&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220411Z" creationid="yo1el" creationdate="20210921T220411Z">
+        <seg>Busca &lt;b1&gt;AutoHotkey&lt;/b1&gt; entre todas las carpetas de &lt;b0&gt;Archivos de Programa&lt;/b0&gt; .</seg>
       </tuv>
     </tu>
     <tu>
