@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Before learning to use AutoHotkey (AHK), you will need to download it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T175742Z" creationid="yo1el" creationdate="20210921T175742Z">
+        <seg>Antes de aprender a usar AutoHotkey (AHK), tendrás que descargarlo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Before we begin our journey, let me give some advice.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T174352Z" creationid="yo1el" creationdate="20210921T174352Z">
