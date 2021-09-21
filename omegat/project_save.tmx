@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Go get some reward snacks then return to reading the rest of this tutorial.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T213350Z" creationid="yo1el" creationdate="20210921T213350Z">
+        <seg>Ve a por unos aperitivos de recompensa y vuelve a leer el resto de este tutorial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Go to the AutoHotkey Homepage:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180057Z" creationid="yo1el" creationdate="20210921T180057Z">
@@ -474,6 +482,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T183247Z" creationid="yo1el" creationdate="20210921T183247Z">
         <seg>Aquí hay un script muy básico que contiene una hotkey (tecla de acceso rápido) que escribe texto usando el comando &lt;a0&gt;Send&lt;/a0&gt; cuandola hotkey is presionada:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Hip Hip Hooray!</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T213158Z" creationid="yo1el" creationdate="20210921T213158Z">
+        <seg>¡Hip Hip Hurra!</seg>
       </tuv>
     </tu>
     <tu>
@@ -1058,6 +1074,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160427Z" creationid="yo1el" creationdate="20210921T160427Z">
         <seg>No puedes combinar comandos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Your first script is done.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T213224Z" creationid="yo1el" creationdate="20210921T213224Z">
+        <seg>Tu primer script está hecho.</seg>
       </tuv>
     </tu>
     <tu>
