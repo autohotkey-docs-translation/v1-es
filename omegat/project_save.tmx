@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>After downloading it, you may possibly need to install it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T175841Z" creationid="yo1el" creationdate="20210921T175841Z">
+        <seg>Después de descargarlo, posiblemente tendrás que instalarlo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Asking for Help</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161506Z" creationid="yo1el" creationdate="20210921T161506Z">
@@ -154,6 +162,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T155855Z" creationid="yo1el" creationdate="20210921T155855Z">
         <seg>Tutorial Para Principiantes | AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>But that depends on the version you want.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T175909Z" creationid="yo1el" creationdate="20210921T175909Z">
+        <seg>Pero eso depende de la versión que quieras.</seg>
       </tuv>
     </tu>
     <tu>
@@ -234,6 +250,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T174616Z" creationid="yo1el" creationdate="20210921T174616Z">
         <seg>Para un aprendizaje óptimo, se recomienda leer el texto y &lt;b0&gt;probar&lt;/b0&gt; el código.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For this guide we will use the Installer since it is easiest to set up.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180002Z" creationid="yo1el" creationdate="20210921T180002Z">
+        <seg>Para esta guía usaremos el instalador, ya que es  más fácil de configurar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -554,6 +578,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213340Z" creationid="yo1el" creationdate="20210912T213340Z">
         <seg>Editores de texto con soporte para AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Text instructions:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180020Z" creationid="yo1el" creationdate="20210921T180020Z">
+        <seg>Instrucciones de texto:</seg>
       </tuv>
     </tu>
     <tu>
