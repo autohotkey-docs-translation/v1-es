@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Downloading and installing AutoHotkey</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160220Z" creationid="yo1el" creationdate="20210921T160220Z">
+        <seg>Descargando e instalando AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Finally, AutoHotkey would not be what it is today without &lt;a0&gt;these other individuals&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T235152Z" creationid="yo1el" creationdate="20210912T235152Z">
@@ -186,6 +194,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T233856Z" creationid="yo1el" creationdate="20210912T233856Z">
         <seg>Hotstrings y reemplazo automático</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>How to create a script</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160232Z" creationid="yo1el" creationdate="20210921T160232Z">
+        <seg>Cómo crear un script</seg>
       </tuv>
     </tu>
     <tu>
@@ -334,10 +350,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Table of Contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160116Z" creationid="yo1el" creationdate="20210921T160116Z">
+        <seg>Tabla de contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Text editors with AutoHotkey support</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213340Z" creationid="yo1el" creationdate="20210912T213340Z">
         <seg>Editores de texto con soporte para AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The Basics</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160204Z" creationid="yo1el" creationdate="20210921T160204Z">
+        <seg>Primeros Pasos</seg>
       </tuv>
     </tu>
     <tu>
@@ -370,6 +402,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T212800Z" creationid="yo1el" creationdate="20210912T212800Z">
         <seg>Versión</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You cannot merge commands</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160427Z" creationid="yo1el" creationdate="20210921T160427Z">
+        <seg>No puedes combinar comandos</seg>
       </tuv>
     </tu>
     <tu>
