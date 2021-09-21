@@ -280,8 +280,8 @@
       <tuv lang="en">
         <seg>For a video instruction, watch &lt;a0&gt;Install and Hello World&lt;/a0&gt; on YouTube.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T180709Z" creationid="yo1el" creationdate="20210921T180709Z">
-        <seg>para una instrucción en video, mira &lt;a0&gt;Install and Hello World&lt;/a0&gt; en YouTube.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181146Z" creationid="yo1el" creationdate="20210921T180709Z">
+        <seg>Para una instrucción en video, mira &lt;a0&gt;Install and Hello World&lt;/a0&gt; en YouTube.</seg>
       </tuv>
     </tu>
     <tu>
@@ -296,8 +296,8 @@
       <tuv lang="en">
         <seg>For this guide we will use the Installer since it is easiest to set up.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T180002Z" creationid="yo1el" creationdate="20210921T180002Z">
-        <seg>Para esta guía usaremos el instalador, ya que es  más fácil de configurar.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181110Z" creationid="yo1el" creationdate="20210921T180002Z">
+        <seg>Para esta guía usaremos el instalador, ya que es más fácil de configurar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -408,8 +408,8 @@
       <tuv lang="en">
         <seg>If you get confused, try reading the section again.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T175136Z" creationid="yo1el" creationdate="20210921T175136Z">
-        <seg>Si te quedas confundido, trata de leer la sección nuevamente.&lt;.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181030Z" creationid="yo1el" creationdate="20210921T175136Z">
+        <seg>Si te quedas confundido, trata de leer la sección nuevamente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -538,6 +538,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180620Z" creationid="yo1el" creationdate="20210921T180525Z">
         <seg>Una vez hecho esto, ¡genial!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Once you have AutoHotkey installed, you will probably want it to do stuff.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181253Z" creationid="yo1el" creationdate="20210921T181253Z">
+        <seg>Una vez que tengas AutoHotkey instalado, probablemente querrás que haga cosas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -768,8 +776,8 @@
       <tuv lang="en">
         <seg>You can copy and paste most examples on this page.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T175025Z" creationid="yo1el" creationdate="20210921T175025Z">
-        <seg>Puede scopiar y pegar la mayoría de los ejemplos de esta página.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181010Z" creationid="yo1el" creationdate="20210921T175025Z">
+        <seg>Puedes copiar y pegar la mayoría de los ejemplos de esta página.</seg>
       </tuv>
     </tu>
     <tu>
