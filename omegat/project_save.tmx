@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Double-click the file/icon in the desktop to run it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T212845Z" creationid="yo1el" creationdate="20210921T212845Z">
+        <seg>Haz doble click en el archivo/icono en el escritorio para ejecutarlo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Downloading and installing AutoHotkey</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160220Z" creationid="yo1el" creationdate="20210921T160220Z">
@@ -698,6 +706,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181253Z" creationid="yo1el" creationdate="20210921T181253Z">
         <seg>Una vez que tengas AutoHotkey instalado, probablemente querrás que haga cosas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open notepad or (anything you can type in) and press &lt;k0&gt;Ctrl&lt;/k0&gt; and &lt;k1&gt;J&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T213128Z" creationid="yo1el" creationdate="20210921T213128Z">
+        <seg>Abre el bloc de notas (o cualquier cosa en la que puedas escribir) y presiona &lt;k0&gt;Ctrl&lt;/k0&gt; y &lt;k1&gt;J&lt;/k1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
