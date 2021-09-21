@@ -1054,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>When you are making your code, you might have the urge to put several commands on the same line or inside of each other, don't.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T213839Z" creationid="yo1el" creationdate="20210921T213839Z">
+        <seg>Cuando estés creando tu código, quizá sientas la necesidad de poner varios comandos en la misma línea o uno dentro del otro: no lo hagas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Window specific hotkeys/hotstrings</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160707Z" creationid="yo1el" creationdate="20210921T160707Z">
