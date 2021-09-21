@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>AutoHotkey is not magic, we all wish it was, but it is not.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181417Z" creationid="yo1el" creationdate="20210921T181417Z">
+        <seg>AutoHotkey no es mágico, a todos nos gustaría que lo fuese, pero no lo es.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>AutoHotkey.chm</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075738Z" creationid="Ragnar-F" creationdate="20210912T075738Z">
@@ -614,6 +622,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Right-Click on your desktop.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181547Z" creationid="yo1el" creationdate="20210921T181547Z">
+        <seg>Haz click derecho en tu escritorio.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Running Programs &amp; Websites</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160950Z" creationid="yo1el" creationdate="20210921T160950Z">
@@ -642,6 +658,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234957Z" creationid="yo1el" creationdate="20210912T234957Z">
         <seg>Así que gracias a Jon y a los otros autores de AutoIt por ello.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>So we will need to tell it what to do.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181446Z" creationid="yo1el" creationdate="20210921T181446Z">
+        <seg>Así que tendremos que decirle qué hacer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -706,6 +730,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T211508Z" creationid="yo1el" creationdate="20210912T210730Z">
         <seg>Esta página contiene información sobre la versión utilizada actualmente, los autores, la licencia y una descripción general rápida de la documentación .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This process is called "Scripting".</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181513Z" creationid="yo1el" creationdate="20210921T181513Z">
+        <seg>A este proceso se le llama "Scripting".</seg>
       </tuv>
     </tu>
     <tu>
