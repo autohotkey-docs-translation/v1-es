@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hotkeys &amp; Hotstrings</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160613Z" creationid="yo1el" creationdate="20210921T160523Z">
+        <seg>2.Hotkeys (teclas de acceso rápido) &amp; Hotstrings(cadenas de cadenas de auto-reemplazo) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Hotkeys (mouse, joystick and keyboard shortcuts)</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T233916Z" creationid="yo1el" creationdate="20210912T220054Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160232Z" creationid="yo1el" creationdate="20210921T160232Z">
         <seg>Cómo crear un script</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>How to find the help file on your computer</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160514Z" creationid="yo1el" creationdate="20210921T160514Z">
+        <seg>Cómo encontrar el archivo de ayuda en tuordenador</seg>
       </tuv>
     </tu>
     <tu>
@@ -256,8 +272,8 @@
       <tuv lang="en">
         <seg>Learn how to download and install AutoHotkey, to create a script, to use hotkeys and hotstrings, to send keystrokes, to run programs, etc.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T155808Z" creationid="yo1el" creationdate="20210921T155808Z">
-        <seg>Aprende a descargar e instalar AutoHotkey, a crear un script, a usar hotkeys (teclas de acceso rápido) y hotstrings (auto-reemplazo), a enviar pulsaciones de teclas, a ejecutar programas, etc.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160558Z" creationid="yo1el" creationdate="20210921T155808Z">
+        <seg>Aprende a descargar e instalar AutoHotkey, a crear un script, a usar hotkeys (teclas de acceso rápido) y hotstrings (cadenas de auto-reemplazo), a enviar pulsaciones de teclas, a ejecutar programas, etc.</seg>
       </tuv>
     </tu>
     <tu>
