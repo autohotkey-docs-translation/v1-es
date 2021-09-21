@@ -694,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It is a key or key combination that the person at the keyboard presses to trigger some actions.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T221407Z" creationid="yo1el" creationdate="20210921T221407Z">
+        <seg>Es una tecla o combinación de teclas que la persona presiona en el teclado para activar algunas acciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>It literally &lt;s1&gt;stops&lt;/s1&gt; code from going any further, to the lines below.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T212627Z" creationid="yo1el" creationdate="20210921T212525Z">
