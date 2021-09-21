@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>::btw::</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T224606Z" creationid="yo1el" creationdate="20210921T224606Z">
+        <seg>::ap::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>::ftw::Free the whales</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T222220Z" creationid="yo1el" creationdate="20210921T222220Z">
@@ -854,6 +862,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>MsgBox, You typed btw.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T224621Z" creationid="yo1el" creationdate="20210921T224621Z">
+        <seg>MsgBox, Has escrito ap.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Multiple hotkeys/hotstrings per file</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160737Z" creationid="yo1el" creationdate="20210921T160737Z">
@@ -1002,6 +1018,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160950Z" creationid="yo1el" creationdate="20210921T160950Z">
         <seg>Ejecutando Programas &amp; Sitios Web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Same with hotkeys.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T224433Z" creationid="yo1el" creationdate="20210921T224433Z">
+        <seg>Igual que con las hotkeys.</seg>
       </tuv>
     </tu>
     <tu>
