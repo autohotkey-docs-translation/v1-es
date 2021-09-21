@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A window should have popped up, probably Notepad.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182803Z" creationid="yo1el" creationdate="20210921T182803Z">
+        <seg>7.Debería haber aparecido una ventana, probablemente el Bloc de notas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Acknowledgements</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234327Z" creationid="yo1el" creationdate="20210912T234327Z">
@@ -194,6 +202,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181721Z" creationid="yo1el" creationdate="20210921T181721Z">
         <seg>Haz click en "AutoHotkey Script" dentro del menú "Nuevo".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Click "Edit Script".</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182740Z" creationid="yo1el" creationdate="20210921T182740Z">
+        <seg>Haz click en "Edit Script".</seg>
       </tuv>
     </tu>
     <tu>
