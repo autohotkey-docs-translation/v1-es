@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; There are exceptions, but those tend to cause confusion a lot of the time.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223221Z" creationid="yo1el" creationdate="20210921T223221Z">
+        <seg>&lt;s0&gt;Nota:&lt;/s0&gt; Hay excepciones, pero tienden a causar confusión en la  mayoría de los  casos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A hotkey is a key that is hot to the touch.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T220931Z" creationid="yo1el" creationdate="20210921T220931Z">
@@ -186,6 +194,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T175841Z" creationid="yo1el" creationdate="20210921T175841Z">
         <seg>Después de descargarlo, posiblemente tendrás que instalarlo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>And the content needs to go below, followed by a &lt;c3&gt;return&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223056Z" creationid="yo1el" creationdate="20210921T223056Z">
+        <seg>Y el contenido tiene que ir a continuación, seguido de un &lt;c3&gt;return&lt;/c3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1082,6 +1098,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T183409Z" creationid="yo1el" creationdate="20210921T183409Z">
         <seg>La primera línea:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The key or key combo needs to go on the &lt;b1&gt;left&lt;/b1&gt; of the &lt;c2&gt;::&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T222948Z" creationid="yo1el" creationdate="20210921T222934Z">
+        <seg>La tecla o combinación de teclas debe ir a la &lt;b1&gt;izquierda&lt;/b1&gt; de los &lt;c2&gt;::&lt;/c2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
