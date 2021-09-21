@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>#s21</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181004Z" creationid="yo1el" creationdate="20210921T181004Z">
+        <seg>#s2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>../static/theme.css</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080344Z" creationid="Ragnar-F" creationdate="20210912T080344Z">
@@ -270,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For a video instruction, watch &lt;a0&gt;Install and Hello World&lt;/a0&gt; on YouTube.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180709Z" creationid="yo1el" creationdate="20210921T180709Z">
+        <seg>para una instrucción en video, mira &lt;a0&gt;Install and Hello World&lt;/a0&gt; en YouTube.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>For optimal learning power, it is advised that you read the text and &lt;b0&gt;try&lt;/b0&gt; the code.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T174616Z" creationid="yo1el" creationdate="20210921T174616Z">
@@ -336,8 +352,8 @@
       <tuv lang="en">
         <seg>Hotkeys &amp; Hotstrings</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T160626Z" creationid="yo1el" creationdate="20210921T160523Z">
-        <seg>2.Hotkeys (teclas de acceso rápido) &amp; Hotstrings (cadenas de cadenas de auto-reemplazo) </seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T180844Z" creationid="yo1el" creationdate="20210921T160523Z">
+        <seg>Hotkeys (teclas de acceso rápido) &amp; Hotstrings (cadenas de cadenas de auto-reemplazo) </seg>
       </tuv>
     </tu>
     <tu>
