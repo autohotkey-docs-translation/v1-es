@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>::ftw::Free the whales</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T222220Z" creationid="yo1el" creationdate="20210921T222220Z">
+        <seg>::salb::Salvad a las ballenas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;a0&gt;Concepts and conventions&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213511Z" creationid="yo1el" creationdate="20210912T213511Z">
