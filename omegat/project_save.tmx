@@ -598,6 +598,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Hotstrings are mainly used to expand abbreviations as you type them (auto-replace), they can also be used to launch any scripted action.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T221617Z" creationid="yo1el" creationdate="20210921T221617Z">
+        <seg>Los hotstrings se utilizan principalmente para expandir abreviaturas a medida que (auto-replace), they can also be used to launch any scripted action.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>How to create a script</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160232Z" creationid="yo1el" creationdate="20210921T160232Z">
@@ -1202,6 +1210,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T220849Z" creationid="yo1el" creationdate="20210921T220849Z">
         <seg>¿Qué es una hotkey?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>What is a hotstring?</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T221445Z" creationid="yo1el" creationdate="20210921T221445Z">
+        <seg>¿Qué es un hotstring?</seg>
       </tuv>
     </tu>
     <tu>
