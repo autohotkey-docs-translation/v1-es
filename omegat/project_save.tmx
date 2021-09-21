@@ -38,14 +38,6 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>#s21</seg>
-      </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T181004Z" creationid="yo1el" creationdate="20210921T181004Z">
-        <seg>#s2</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
         <seg>../static/theme.css</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080344Z" creationid="Ragnar-F" creationdate="20210912T080344Z">
@@ -574,14 +566,6 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Hotkeys &amp; Hotstrings</seg>
-      </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T220820Z" creationid="yo1el" creationdate="20210921T160523Z">
-        <seg>Hotkeys y Hotstrings</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
         <seg>Hotkeys (mouse, joystick and keyboard shortcuts)</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T233916Z" creationid="yo1el" creationdate="20210912T220054Z">
@@ -600,8 +584,8 @@
       <tuv lang="en">
         <seg>Hotstrings are mainly used to expand abbreviations as you type them (auto-replace), they can also be used to launch any scripted action.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T221617Z" creationid="yo1el" creationdate="20210921T221617Z">
-        <seg>Los hotstrings se utilizan principalmente para expandir abreviaturas a medida que (auto-replace), they can also be used to launch any scripted action.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T221954Z" creationid="yo1el" creationdate="20210921T221617Z">
+        <seg>Los hotstrings se utilizan principalmente para expandir abreviaturas a medida que escribes (reemplazo automático). También se pueden usar para iniciar cualquier acción  programada.</seg>
       </tuv>
     </tu>
     <tu>
