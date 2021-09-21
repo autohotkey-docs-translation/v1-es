@@ -886,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The third line:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T184017Z" creationid="yo1el" creationdate="20210921T184017Z">
+        <seg>La tercera línea:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Then, study the code.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T174700Z" creationid="yo1el" creationdate="20210921T174700Z">
@@ -906,6 +914,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181513Z" creationid="yo1el" creationdate="20210921T181513Z">
         <seg>A este proceso se le llama "Scripting".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This will become your best friend.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T212454Z" creationid="yo1el" creationdate="20210921T212454Z">
+        <seg>Éste se convertirá en tu mejor amigo.</seg>
       </tuv>
     </tu>
     <tu>
