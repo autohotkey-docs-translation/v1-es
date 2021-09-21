@@ -134,10 +134,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;i0&gt;"So, how exactly does a person such as myself create a hotkey?"&lt;/i0&gt; Good question.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T222715Z" creationid="yo1el" creationdate="20210921T222715Z">
+        <seg>&lt;i0&gt;"Entonces, ¿cómo una persona como yo puede crear una hotkey?"&lt;/i0&gt; Buena pregunta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A hotkey is a key that is hot to the touch.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T220931Z" creationid="yo1el" creationdate="20210921T220931Z">
         <seg>Una hotkey es una tecla que está caliente al tacto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A hotkey is created by using a single pair of colons.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T222837Z" creationid="yo1el" creationdate="20210921T222837Z">
+        <seg>Una hotkey se crea usando un simple par de dos puntos.</seg>
       </tuv>
     </tu>
     <tu>
