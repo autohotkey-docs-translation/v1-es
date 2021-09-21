@@ -414,6 +414,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Other links</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161549Z" creationid="yo1el" creationdate="20210921T161549Z">
+        <seg>Otros enlaces</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Other:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234102Z" creationid="yo1el" creationdate="20210912T234102Z">
