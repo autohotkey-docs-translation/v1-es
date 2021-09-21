@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Learn how to download and install AutoHotkey, to create a script, to use hotkeys and hotstrings, to send keystrokes, to run programs, etc.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T155808Z" creationid="yo1el" creationdate="20210921T155808Z">
+        <seg>Aprende a descargar e instalar AutoHotkey, a crear un script, a usar hotkeys (teclas de acceso rápido) y hotstrings (auto-reemplazo), a enviar pulsaciones de teclas, a ejecutar programas, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>List of keys, mouse buttons and joystick controls</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234046Z" creationid="yo1el" creationdate="20210912T234046Z">
