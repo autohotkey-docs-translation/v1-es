@@ -144,8 +144,8 @@
       <tuv lang="en">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; There are exceptions, but those tend to cause confusion a lot of the time.</seg>
       </tuv>
-      <tuv lang="es" changeid="yo1el" changedate="20210921T223221Z" creationid="yo1el" creationdate="20210921T223221Z">
-        <seg>&lt;s0&gt;Nota:&lt;/s0&gt; Hay excepciones, pero tienden a causar confusión en la  mayoría de los  casos.</seg>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223231Z" creationid="yo1el" creationdate="20210921T223221Z">
+        <seg>&lt;s0&gt;Nota:&lt;/s0&gt; Hay excepciones, pero tienden a causar confusión en la mayoría de los  casos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -162,6 +162,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T222837Z" creationid="yo1el" creationdate="20210921T222837Z">
         <seg>Una hotkey se crea usando un simple par de dos puntos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A hotstring has a pair of colons on each side of the text you want to trigger the text replacement.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223642Z" creationid="yo1el" creationdate="20210921T223642Z">
+        <seg>Una hotstring tiene un par de dos puntos a cada lado de la abreviatura que tú deseas que sea sustituido.</seg>
       </tuv>
     </tu>
     <tu>
@@ -830,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>MsgBox, Escape!!!!</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223359Z" creationid="yo1el" creationdate="20210921T223359Z">
+        <seg>MsgBox, ¡¡¡Escape!!!!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Multiple hotkeys/hotstrings per file</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160737Z" creationid="yo1el" creationdate="20210921T160737Z">
@@ -1018,6 +1034,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T175426Z" creationid="yo1el" creationdate="20210921T175426Z">
         <seg>Dado que estás viendo esta documentación localmente, probablemente ya hayas instalado AutoHotkey y puedes pasar a la sección b.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>So it won't be covered in the tutorial, at least, not right now.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223330Z" creationid="yo1el" creationdate="20210921T223330Z">
+        <seg>Por tanto no lo veremos en el tutorial. Al menos, no por ahora.</seg>
       </tuv>
     </tu>
     <tu>
