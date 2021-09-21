@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you get confused, try reading the section again.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T175136Z" creationid="yo1el" creationdate="20210921T175136Z">
+        <seg>Si te quedas confundido, trata de leer la sección nuevamente.&lt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>In addition, many of AutoHotkey's enhancements to the AutoIt v2 command set, as well as the Window Spy and the old script compiler, were adapted directly from the AutoIt v3 source code.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234709Z" creationid="yo1el" creationdate="20210912T234709Z">
