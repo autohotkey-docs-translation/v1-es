@@ -510,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Since you're viewing this documentation locally, you've probably already installed AutoHotkey and can skip to section b.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T175426Z" creationid="yo1el" creationdate="20210921T175426Z">
+        <seg>Dado que estás viendo esta documentación localmente, probablemente ya hayas instalado AutoHotkey y puedes pasar a la sección b.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>So thanks to Jon and the other AutoIt authors for those as well.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234957Z" creationid="yo1el" creationdate="20210912T234957Z">
