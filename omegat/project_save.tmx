@@ -526,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Go into your harddrive that contains &lt;b0&gt;AutoHotkey&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T220126Z" creationid="yo1el" creationdate="20210921T220126Z">
+        <seg>Ve al disco duro que contiene &lt;b0&gt;AutoHotkey&lt;/b0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Go to the AutoHotkey Homepage:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180057Z" creationid="yo1el" creationdate="20210921T180057Z">
@@ -802,6 +810,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181253Z" creationid="yo1el" creationdate="20210921T181253Z">
         <seg>Una vez que tengas AutoHotkey instalado, probablemente querrás que haga cosas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Open it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215954Z" creationid="yo1el" creationdate="20210921T215954Z">
+        <seg>Ábrelo.</seg>
       </tuv>
     </tu>
     <tu>
