@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>AutoHotkey Beginner Tutorial &lt;s0&gt;by tidbit&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160103Z" creationid="yo1el" creationdate="20210921T160103Z">
+        <seg>Tutorial de AutoHotkey para Principiantes &lt;s0&gt;by tidbit&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>AutoHotkey Help</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080040Z" creationid="Ragnar-F" creationdate="20210912T080040Z">
@@ -106,6 +114,14 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075738Z" creationid="Ragnar-F" creationdate="20210912T075738Z">
         <seg>AutoHotkey.chm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Beginner Tutorial | AutoHotkey</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T155855Z" creationid="yo1el" creationdate="20210921T155855Z">
+        <seg>Tutorial Para Principiantes | AutoHotkey</seg>
       </tuv>
     </tu>
     <tu>
@@ -386,6 +402,14 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080231Z" creationid="Ragnar-F" creationdate="20210912T080231Z">
         <seg>]],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>ahk, autohotkey, tutorial, beginners guide</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T160005Z" creationid="yo1el" creationdate="20210921T160005Z">
+        <seg>ahk, autohotkey, tutorial, guía para principiantes</seg>
       </tuv>
     </tu>
     <tu>
