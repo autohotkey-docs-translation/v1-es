@@ -1054,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The difference between the two examples is that the hotkey will be triggered when you press &lt;k0&gt;Ctrl&lt;/k0&gt;+&lt;k1&gt;J&lt;/k1&gt; while the hotstring will convert your typed "ftw" into "Free the whales".</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T222531Z" creationid="yo1el" creationdate="20210921T222531Z">
+        <seg>La diferencia entre los dos ejemplos es que la hotkey se activará cuando presiones &lt;k0&gt;Ctrl&lt;/k0&gt;+&lt;k1&gt;J&lt;/k1&gt;, mientras que el hotstring convertirá tu "salb" escrito en "Salvad a las ballenas".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The first line:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T183409Z" creationid="yo1el" creationdate="20210921T183409Z">
