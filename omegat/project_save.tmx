@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;In section 5&lt;/a0&gt; we'll talk about why it doesn't work as you might expect and what you can do instead.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T213951Z" creationid="yo1el" creationdate="20210921T213951Z">
+        <seg>&lt;a0&gt;En la sección 5&lt;/a0&gt; hablaremos sobre por qué no funciona como cabría esperar y qué puedes hacer en su lugar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;a0&gt;Script compatibility&lt;/a0&gt; - AutoHotkey 1.0 users read this</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T234315Z" creationid="yo1el" creationdate="20210912T234315Z">
