@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>While the text to replace your typed text goes on the &lt;b0&gt;right&lt;/b0&gt; of the second pair of colons.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T223949Z" creationid="yo1el" creationdate="20210921T223949Z">
+        <seg>Mientras que el texto para reemplazartu texto escrito va a la &lt;b0&gt;derecha&lt;/b0&gt; del segundo par de dos puntos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Window specific hotkeys/hotstrings</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160707Z" creationid="yo1el" creationdate="20210921T160707Z">
