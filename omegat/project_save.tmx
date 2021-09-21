@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Asking for Help</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161506Z" creationid="yo1el" creationdate="20210921T161506Z">
+        <seg>Pidiendo Ayuda</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>AutoHotkey Beginner Tutorial &lt;s0&gt;by tidbit&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160103Z" creationid="yo1el" creationdate="20210921T160103Z">
@@ -158,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Creating Objects</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161237Z" creationid="yo1el" creationdate="20210921T161237Z">
+        <seg>Creando Objetos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Downloading and installing AutoHotkey</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160220Z" creationid="yo1el" creationdate="20210921T160220Z">
@@ -178,6 +194,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T235152Z" creationid="yo1el" creationdate="20210912T235152Z">
         <seg>Finalmente, AutoHotkey no sería lo que es hoy sin &lt;a0&gt;estos otros individuos&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Finding your AHK version</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161419Z" creationid="yo1el" creationdate="20210921T161419Z">
+        <seg>Encontrando tu versión de AHK</seg>
       </tuv>
     </tu>
     <tu>
@@ -286,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Indentation</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161453Z" creationid="yo1el" creationdate="20210921T161453Z">
+        <seg>Indentación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Index.hhk</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075806Z" creationid="Ragnar-F" creationdate="20210912T075806Z">
@@ -370,6 +402,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161225Z" creationid="yo1el" creationdate="20210921T161225Z">
         <seg>¿Otros ejemplos?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Other Helpful Goodies</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161339Z" creationid="yo1el" creationdate="20210921T161339Z">
+        <seg>Otras Cosillas Útiles</seg>
       </tuv>
     </tu>
     <tu>
@@ -470,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The mysterious square brackets</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161355Z" creationid="yo1el" creationdate="20210921T161355Z">
+        <seg>Los misteriosos  corchetes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This page contains information about the currently used version, the authors, the license, and a quick overview of the documentation.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T211508Z" creationid="yo1el" creationdate="20210912T210730Z">
@@ -478,10 +526,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Trial and Error</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161536Z" creationid="yo1el" creationdate="20210921T161437Z">
+        <seg>Prueba y Error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Tutorial for beginners</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213304Z" creationid="yo1el" creationdate="20210912T213304Z">
         <seg>Tutorial para principiantes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Using Objects</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T161314Z" creationid="yo1el" creationdate="20210921T161314Z">
+        <seg>Usando Objetos</seg>
       </tuv>
     </tu>
     <tu>
