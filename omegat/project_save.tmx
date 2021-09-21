@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click it.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215638Z" creationid="yo1el" creationdate="20210921T215638Z">
+        <seg>Haz click en él.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Code blocks</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161057Z" creationid="yo1el" creationdate="20210921T161057Z">
@@ -322,6 +330,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161237Z" creationid="yo1el" creationdate="20210921T161237Z">
         <seg>Creando Objetos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Done!</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215702Z" creationid="yo1el" creationdate="20210921T215702Z">
+        <seg>¡Hecho!</seg>
       </tuv>
     </tu>
     <tu>
@@ -378,6 +394,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T215328Z" creationid="yo1el" creationdate="20210921T215328Z">
         <seg>Busca &lt;b0&gt;AutoHotkey&lt;/b0&gt; en la lista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Find &lt;b0&gt;My Computer&lt;/b0&gt; or &lt;b1&gt;Computer&lt;/b1&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215936Z" creationid="yo1el" creationdate="20210921T215936Z">
+        <seg>Busca &lt;b0&gt;Mi Ordenador&lt;/b0&gt; o &lt;b1&gt;Ordenador&lt;/b1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -506,6 +530,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180057Z" creationid="yo1el" creationdate="20210921T180057Z">
         <seg>Ve a la Página Principal de AutoHotkey:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Go to your desktop.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215739Z" creationid="yo1el" creationdate="20210921T215739Z">
+        <seg>Ve a  tu escritorio.</seg>
       </tuv>
     </tu>
     <tu>
@@ -706,6 +738,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T214244Z" creationid="yo1el" creationdate="20210921T214244Z">
         <seg>Método 1:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Method 2:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215719Z" creationid="yo1el" creationdate="20210921T215719Z">
+        <seg>Método 2:</seg>
       </tuv>
     </tu>
     <tu>
