@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Method 1:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T214244Z" creationid="yo1el" creationdate="20210921T214244Z">
+        <seg>Método 1:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Miscellaneous topics</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T215234Z" creationid="yo1el" creationdate="20210912T215234Z">
@@ -954,6 +962,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T174700Z" creationid="yo1el" creationdate="20210921T174700Z">
         <seg>Después, estudia el código.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are a few ways to do this, I'll assume you have it installed to the default locations:</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T214237Z" creationid="yo1el" creationdate="20210921T214237Z">
+        <seg>Hay varias maneras de hacerlo: Supongamos que lo tienes instalado en las instalaciones predeterminadas: </seg>
       </tuv>
     </tu>
     <tu>
