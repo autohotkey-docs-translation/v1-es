@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For a list of all built-in commands, function and variables, see &lt;a0&gt;section 5&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T183104Z" creationid="yo1el" creationdate="20210921T183104Z">
+        <seg>Para obtener una lista con todos los comandos,funciones y variables integrados, consulta la sección 5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>For a video instruction, watch &lt;a0&gt;Install and Hello World&lt;/a0&gt; on YouTube.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181146Z" creationid="yo1el" creationdate="20210921T180709Z">
@@ -466,6 +474,14 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075458Z" creationid="Ragnar-F" creationdate="20210912T075458Z">
         <seg>IE=edge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If so, SUCCESS!</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T182829Z" creationid="yo1el" creationdate="20210921T182829Z">
+        <seg>Si esasí, ¡ÉXITO!</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +738,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T175426Z" creationid="yo1el" creationdate="20210921T175426Z">
         <seg>Dado que estás viendo esta documentación localmente, probablemente ya hayas instalado AutoHotkey y puedes pasar a la sección b.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>So now that you have created a script, we need to add stuff into the file.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T183017Z" creationid="yo1el" creationdate="20210921T183017Z">
+        <seg>Así que, ahora que has creado un script, tenemos que añadir cosasen el archivo.</seg>
       </tuv>
     </tu>
     <tu>
