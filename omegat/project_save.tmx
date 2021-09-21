@@ -1070,10 +1070,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Send, 7 lines{!}{Enter}</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T225217Z" creationid="yo1el" creationdate="20210921T225217Z">
+        <seg>Send, 7 líneas{!}{Enter}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Send, My First Script</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T183309Z" creationid="yo1el" creationdate="20210921T183309Z">
         <seg>Send, Mi Primer Script</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>SendInput, inside the CTRL{+}J hotkey.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T225251Z" creationid="yo1el" creationdate="20210921T225251Z">
+        <seg>SendInput, dentro de la hotkey CTRL{+}J.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1370,6 +1386,22 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T223949Z" creationid="yo1el" creationdate="20210921T223949Z">
         <seg>Mientras que el texto para reemplazartu texto escrito va a la &lt;b0&gt;derecha&lt;/b0&gt; del segundo par de dos puntos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>WinActivate, Untitled - Notepad</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T225101Z" creationid="yo1el" creationdate="20210921T225101Z">
+        <seg>WinActivate, Sin título - Bloc de notas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>WinWaitActive, Untitled - Notepad</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T225129Z" creationid="yo1el" creationdate="20210921T225129Z">
+        <seg>WinWaitActive, Sin título - Bloc de notas</seg>
       </tuv>
     </tu>
     <tu>
