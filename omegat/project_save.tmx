@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Find the Start menu or Start Orb on your screen, usually in the lower left.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215109Z" creationid="yo1el" creationdate="20210921T215109Z">
+        <seg>Busca el menú Inicio, normalmente en la parte inferior izquierda.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Find the newly created file on your desktop and right-click it.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T182716Z" creationid="yo1el" creationdate="20210921T182716Z">
