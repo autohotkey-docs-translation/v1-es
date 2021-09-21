@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click "AutoHotkey Script" inside the "New" menu.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181721Z" creationid="yo1el" creationdate="20210921T181721Z">
+        <seg>Haz click en "AutoHotkey Script" dentro del menú "Nuevo".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click Download:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180206Z" creationid="yo1el" creationdate="20210921T180206Z">
@@ -278,6 +286,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Find "New" in the menu.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181615Z" creationid="yo1el" creationdate="20210921T181615Z">
+        <seg>Encuentra "Nuevo" en el menú.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Finding your AHK version</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161419Z" creationid="yo1el" creationdate="20210921T161419Z">
@@ -346,6 +362,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161156Z" creationid="yo1el" creationdate="20210921T161156Z">
         <seg>Obtener información del usuario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the script a new name.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T181952Z" creationid="yo1el" creationdate="20210921T181952Z">
+        <seg>Dale un nombre al script.</seg>
       </tuv>
     </tu>
     <tu>
