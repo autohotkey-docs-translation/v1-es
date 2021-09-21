@@ -550,6 +550,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Then, study the code.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T174700Z" creationid="yo1el" creationdate="20210921T174700Z">
+        <seg>Después, estudia el código.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This page contains information about the currently used version, the authors, the license, and a quick overview of the documentation.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T211508Z" creationid="yo1el" creationdate="20210912T210730Z">
@@ -618,6 +626,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160707Z" creationid="yo1el" creationdate="20210921T160707Z">
         <seg>b.Hotkeys/hotstrings para una ventana específica</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can copy and paste most examples on this page.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T175025Z" creationid="yo1el" creationdate="20210921T175025Z">
+        <seg>Puede scopiar y pegar la mayoría de los ejemplos de esta página.</seg>
       </tuv>
     </tu>
     <tu>
