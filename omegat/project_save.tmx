@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Find &lt;b0&gt;AutoHotkey&lt;/b0&gt; in the list.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215328Z" creationid="yo1el" creationdate="20210921T215328Z">
+        <seg>Busca &lt;b0&gt;AutoHotkey&lt;/b0&gt; en la lista.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Find the Start menu or Start Orb on your screen, usually in the lower left.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T215109Z" creationid="yo1el" creationdate="20210921T215109Z">
@@ -1122,6 +1130,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160427Z" creationid="yo1el" creationdate="20210921T160427Z">
         <seg>No puedes combinar comandos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You should then see &lt;b0&gt;AutoHotkey Help File&lt;/b0&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215605Z" creationid="yo1el" creationdate="20210921T215605Z">
+        <seg>Ahí deberás ver el &lt;b0&gt;Archivo de Ayuda de AutoHotkey&lt;/b0&gt; (&lt;b0&gt;AutoHotkey Help File&lt;/b0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
