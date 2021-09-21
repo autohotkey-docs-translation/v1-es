@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Click &lt;b0&gt;Programs&lt;/b0&gt; or &lt;b1&gt;All Programs&lt;/b1&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="yo1el" changedate="20210921T215303Z" creationid="yo1el" creationdate="20210921T215303Z">
+        <seg>Haz click en &lt;b0&gt;Programas&lt;/b0&gt; or &lt;b1&gt;Todos los Programas&lt;/b1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Click Download:</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T180206Z" creationid="yo1el" creationdate="20210921T180206Z">
