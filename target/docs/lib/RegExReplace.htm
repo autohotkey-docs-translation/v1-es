@@ -30,7 +30,7 @@
       <p>Nonexistent backreferences and those that did not match anything in <em>Haystack</em> -- such as one of the subpatterns in <span class="regex">(abc)|(xyz)</span> -- are transcribed as empty strings.</p></dd>
 
   <dt>OutputVarCount</dt>
-  <dd><p>Specify a variable in which to store the number of replacements that occurred (0 if none).</p></dd>
+  <dd><p>Specify a output variable in which to store the number of replacements that occurred (0 if none).</p></dd>
 
   <dt>Limit</dt>
   <dd><p>If <em>Limit</em> is omitted, it defaults to -1, which replaces <strong>all</strong> occurrences of the pattern found in <em>Haystack</em>. Otherwise, specify the maximum number of replacements to allow. The part of <em>Haystack</em> to the right of the last replacement is left unchanged.</p></dd>
@@ -61,13 +61,13 @@
 <p>To improve performance, the 100 most recently used regular expressions are kept cached in memory (in compiled form).</p>
 <p>The <a href="../misc/RegEx-QuickRef.htm#Study">study option (S)</a> can sometimes improve the performance of a regular expression that is used many times (such as in a loop).</p>
 <h2 id="Remarks">Remarks</h2>
-<p>Most characters like abc123 can be used literally inside a regular expression. However, the characters <strong>\.*?+[{|()^$</strong> must be preceded by a backslash to be seen as literal. For example, <strong>\.</strong> is a literal period and <strong>\\</strong> is a literal backslash. Escaping can be avoided by using \Q...\E. For example: <span class="regex">\QLiteral Text\E</span>.</p>
+<p>Most characters like abc123 can be used literally inside a regular expression. However, the characters <strong>\.*?+[{|()^$</strong> must be preceded by a backslash to be seen as literal. For example, <strong>\.</strong> is a literal period and <strong>\\</strong> is a literal backslash. Escaping can be avoided by using \Q...\E. Por ejemplo: <span class="regex">\QLiteral Text\E</span>.</p>
 <p>Within a regular expression, special characters such as tab and newline can be escaped with either an accent (`) or a backslash (\). For example, `t is the same as \t.</p>
 <p>To learn the basics of regular expressions (or refresh your memory of pattern syntax), see the <a href="../misc/RegEx-QuickRef.htm">RegEx Quick Reference</a>.</p>
 <h2 id="Related">Related</h2>
 <p><a href="RegExMatch.htm">RegExMatch()</a>, <a href="../misc/RegEx-QuickRef.htm">RegEx Quick Reference</a>, <a href="../misc/RegExCallout.htm">Regular Expression Callouts</a>, <a href="StrReplace.htm">StrReplace()</a>, <a href="InStr.htm">InStr()</a>, <a href="StringReplace.htm">StringReplace</a></p>
 <p>Common sources of text data: <a href="FileRead.htm">FileRead</a>, <a href="URLDownloadToFile.htm">UrlDownloadToFile</a>, <a href="../misc/Clipboard.htm">Clipboard</a>, <a href="GuiControls.htm#Edit">GUI Edit controls</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <p>For general RegEx examples, see the <a href="../misc/RegEx-QuickRef.htm">RegEx Quick Reference</a>.</p>
 <div class="ex" id="ExDollar">
 <p><a class="ex_number" href="#ExDollar"></a> Reports "abc123xyz" because the $ allows a match only at the end.</p>

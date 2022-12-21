@@ -3,7 +3,7 @@
 <head>
 <title>FileSelectFile - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The FileSelectFile command displays a standard dialog that allows the user to open or save file(s)." />
-<meta name="ahk:equiv-v2" content="commands/FileSelect.htm" />
+<meta name="ahk:equiv-v2" content="lib/FileSelect.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -20,7 +20,7 @@
 <dl>
 
   <dt>OutputVar</dt>
-  <dd><p>The name of the variable in which to store the filename(s) selected by the user. This will be made blank if the user cancels the dialog (i.e. does not wish to select a file).</p></dd>
+  <dd><p>The name of the output variable in which to store the filename(s) selected by the user. This will be made blank if the user cancels the dialog (i.e. does not wish to select a file).</p></dd>
 
   <dt>Options</dt>
   <dd><p>If omitted, it will default to zero, which is the same as having none of the options below.</p>
@@ -65,7 +65,7 @@ My File  <em>; Only <i>Filename</i> is present (but if "My File" exists as a fol
 <img src="../static/dlg_file.png" alt="FileSelectFile" />
 <p>If the user didn't select anything (e.g. pressed CANCEL), <em>OutputVar</em> is made blank.</p>
 <p>If multi-select is not in effect, <em>OutputVar</em> is set to the full path and name of the single file chosen by the user.</p>
-<p>If the M option (multi-select) is in effect, <em>OutputVar</em> is set to a list of items, each of which except the last is followed by a linefeed (`n) character. The first item in the list is the path that contains all the selected files (this path will end in a backslash only if it is a root folder such as C:\). The other items are the selected filenames (without path). For example:</p>
+<p>If the M option (multi-select) is in effect, <em>OutputVar</em> is set to a list of items, each of which except the last is followed by a linefeed (`n) character. The first item in the list is the path that contains all the selected files (this path will end in a backslash only if it is a root folder such as C:\). The other items are the selected filenames (without path). Por ejemplo:</p>
 <pre class="no-highlight">C:\My Documents\New Folder [this is the path in which all the files below reside]
 test1.txt [these are the naked filenames: no path info]
 test2.txt
@@ -81,7 +81,7 @@ Thread, NoTimers, false</pre>
 <h2 id="Related">Related</h2>
 <p><a href="FileSelectFolder.htm">FileSelectFolder</a>, <a href="MsgBox.htm">MsgBox</a>, <a href="InputBox.htm">InputBox</a>, <a href="ToolTip.htm">ToolTip</a>, <a href="Gui.htm">GUI</a>, <a href="../misc/CLSID-List.htm">CLSID List</a>, <a href="LoopParse.htm">parsing loop</a>, <a href="SplitPath.htm">SplitPath</a></p>
 <p>Also, the operating system offers standard dialog boxes that prompt the user to pick a font, color, or icon. These dialogs can be displayed via <a href="DllCall.htm">DllCall()</a> as demonstrated at <a href="https://github.com/majkinetor/mm-autohotkey/tree/master/Dlg">GitHub</a>.</p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Allows the user to select an existing .txt or .doc file.</p>
 <pre>FileSelectFile, SelectedFile, 3, , Open a file, Text Documents (*.txt; *.doc)

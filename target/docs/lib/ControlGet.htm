@@ -3,7 +3,7 @@
 <head>
 <title>ControlGet - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The ControlGet command retrieves various types of information about a control." />
-<meta name="ahk:equiv-v2" content="commands/Control.htm" />
+<meta name="ahk:equiv-v2" content="lib/Control.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -19,7 +19,7 @@
 <h2 id="Parameters">Parameters</h2>
 <dl>
   <dt>OutputVar</dt>
-  <dd>The name of the variable in which to store the result of <em>SubCommand</em>.</dd>
+  <dd>The name of the output variable in which to store the result of <em>SubCommand</em>.</dd>
 
   <dt>SubCommand, Value</dt>
   <dd>These are dependent upon each other and their usage is described <a href="#SubCommands">below</a>.</dd>
@@ -27,7 +27,7 @@
   <dt>Control</dt>
   <dd>
     <p>Can be either ClassNN (the classname and instance number of the control) or the control's text, both of which can be determined via Window Spy. When using text, the matching behavior is determined by <a href="SetTitleMatchMode.htm">SetTitleMatchMode</a>. If this parameter is blank, the target window's topmost control will be used.</p>
-    <p>To operate upon a control's HWND (window handle), leave the <em>Control</em> parameter blank and specify <code>ahk_id %ControlHwnd%</code> for the <em>WinTitle</em> parameter (this also works on hidden controls even when <a href="DetectHiddenWindows.htm">DetectHiddenWindows</a> is Off). The HWND of a control is typically retrieved via <a href="ControlGet.htm#Hwnd">ControlGet Hwnd</a>, <a href="MouseGetPos.htm">MouseGetPos</a>, or <a href="DllCall.htm">DllCall()</a>.</p>
+    <p>To operate upon a control's HWND (window handle), leave the <em>Control</em> parameter blank and specify <code>ahk_id %ControlHwnd%</code> for the <em>WinTitle</em> parameter (this also works on hidden controls even when <a href="DetectHiddenWindows.htm">DetectHiddenWindows</a> is Off). The HWND of a control is typically retrieved via <a href="#Hwnd">ControlGet Hwnd</a>, <a href="MouseGetPos.htm">MouseGetPos</a>, or <a href="DllCall.htm">DllCall()</a>.</p>
   </dd>
 
   <dt>WinTitle</dt>
@@ -196,7 +196,7 @@ ChoicePos += 1  <em>; Convert from 0-based to 1-based, i.e. so that the first it
 <h3 id="Hwnd">Hwnd <span class="ver">[v1.0.43.06+]</span></h3>
 <p>Retrieves the window handle (HWND) of the control.</p>
 <pre class="Syntax"><span class="func">ControlGet</span>, OutputVar, Hwnd <span class="optional">,, Control, WinTitle, WinText, ExcludeTitle, ExcludeText</span></pre>
-<p>For example: <code>ControlGet, OutputVar, Hwnd,, Edit1, <i>WinTitle</i></code>. A control's HWND is often used with <a href="PostMessage.htm">PostMessage</a>, <a href="PostMessage.htm">SendMessage</a>, and <a href="DllCall.htm">DllCall()</a>. On a related note, a control's HWND can also be retrieved via <a href="MouseGetPos.htm">MouseGetPos</a>. Finally, a control's HWND can be used directly as an <a href="../misc/WinTitle.htm#ahk_id">ahk_id WinTitle</a> (this also works on hidden controls even when <a href="DetectHiddenWindows.htm">DetectHiddenWindows</a> is Off).</p>
+<p>Por ejemplo: <code>ControlGet, OutputVar, Hwnd,, Edit1, <i>WinTitle</i></code>. A control's HWND is often used with <a href="PostMessage.htm">PostMessage</a>, <a href="PostMessage.htm">SendMessage</a>, and <a href="DllCall.htm">DllCall()</a>. On a related note, a control's HWND can also be retrieved via <a href="MouseGetPos.htm">MouseGetPos</a>. Finally, a control's HWND can be used directly as an <a href="../misc/WinTitle.htm#ahk_id">ahk_id WinTitle</a> (this also works on hidden controls even when <a href="DetectHiddenWindows.htm">DetectHiddenWindows</a> is Off).</p>
 
 <h2 id="Error_Handling">Error Handling</h2>
 <p><span class="ver">[v1.1.04+]</span>: This command is able to throw an exception on failure. For more information, see <a href="Catch.htm#RuntimeErrors">Runtime Errors</a>.</p>
@@ -210,7 +210,7 @@ ChoicePos += 1  <em>; Convert from 0-based to 1-based, i.e. so that the first it
 <h2 id="Related">Related</h2>
 <p><a href="Control.htm">Control</a>, <a href="GuiControlGet.htm">GuiControlGet</a>, <a href="ControlMove.htm">ControlMove</a>, <a href="ControlGetText.htm">ControlGetText</a>, <a href="ControlSetText.htm">ControlSetText</a>, <a href="ControlGetPos.htm">ControlGetPos</a>, <a href="ControlClick.htm">ControlClick</a>, <a href="ControlFocus.htm">ControlFocus</a>, <a href="ControlSend.htm">ControlSend</a>, <a href="WinGet.htm">WinGet</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExLine">
 <p><a class="ex_number" href="#ExLine"></a> Retrieves the first line of the first Edit control.</p>

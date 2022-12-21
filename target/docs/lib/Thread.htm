@@ -37,7 +37,7 @@
 <pre class="Syntax"><span class="func">Thread</span>, Priority, Level</pre>
 <p>Specify for <em>Level</em> an integer between -2147483648 and 2147483647 (or an <a href="../Variables.htm#Expressions">expression</a>) to indicate the current thread's new priority. This has no effect on other threads. See <a href="../misc/Threads.htm">Threads</a> for details.</p>
 <p>Due to its ability to buffer events, the command <a href="Critical.htm">Critical</a> is generally superior to this sub-command.</p>
-<p>On a related note, the OS's priority level for the entire script can be changed via <a href="Process.htm#Priority">Process Priority</a>. For example:</p>
+<p>On a related note, the OS's priority level for the entire script can be changed via <a href="Process.htm#Priority">Process Priority</a>. Por ejemplo:</p>
 <pre>Process, Priority,, High</pre>
 
 <h3 id="Interrupt">Interrupt</h3>
@@ -51,7 +51,7 @@
 <p>If a <a href="../Hotkeys.htm">hotkey</a> is pressed or a <a href="Menu.htm">custom menu item</a> is selected while the <a href="../misc/Threads.htm">current thread</a> is uninterruptible, that event will be buffered. In other words, it will launch when the current thread finishes or becomes interruptible, whichever comes first. The exception to this is when the current thread becomes interruptible before it finishes, and it is of higher <a href="#Priority">priority</a> than the buffered event; in this case the buffered event is unbuffered and discarded.</p>
 <p>Regardless of this sub-command, a thread will become interruptible the moment it displays a <a href="MsgBox.htm">MsgBox</a>, <a href="InputBox.htm">InputBox</a>, <a href="FileSelectFile.htm">FileSelectFile</a>, or <a href="FileSelectFolder.htm">FileSelectFolder</a> dialog.</p>
 <p>Either parameter can be left blank to avoid changing it.</p>
-<p>If <a href="Critical.htm">Critical</a> is specified as the first line of the thread's subroutine or function, the thread starts out uninterruptible and the Interrupt sub-command has no effect. However, this does not apply to bound functions or user-defined <a href="../objects/Functor.htm">function objects</a>.</p>
+<p>If <a href="Critical.htm">Critical</a> is specified as the first line of the thread's subroutine or function, the thread starts out uninterruptible and the Interrupt sub-command has no effect. However, this does not apply to bound functions or user-defined <a href="../misc/Functor.htm">function objects</a>.</p>
 
 <h2 id="Remarks">Remarks</h2>
 <p>Due to its greater flexibility and its ability to buffer events, the command <a href="Critical.htm">Critical</a> is generally more useful than the sub-commands <a href="#Interrupt">Interrupt</a> and <a href="#Priority">Priority</a>.</p>
@@ -59,7 +59,7 @@
 <h2 id="Related">Related</h2>
 <p><a href="Critical.htm">Critical</a>, <a href="../misc/Threads.htm">Threads</a>, <a href="Hotkey.htm">Hotkey</a>, <a href="Menu.htm">Menu</a>, <a href="SetTimer.htm">SetTimer</a>, <a href="Process.htm">Process</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExPriority">
 <p><a class="ex_number" href="#ExPriority"></a> Makes the priority of the current thread slightly above average.</p>
 <pre>Thread, Priority, 1</pre>

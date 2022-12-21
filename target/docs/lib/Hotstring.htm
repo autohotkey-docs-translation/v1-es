@@ -35,8 +35,8 @@ OldValue := <span class="func">Hotstring</span>("<a href="#MouseReset">MouseRese
 
   <dt>Replacement</dt>
   <dd>
-    <p>The replacement string, or a <a href="../misc/Labels.htm">label</a>, <a href="../Functions.htm">function</a> or <a href="../objects/Functor.htm">function object</a> to call (as a new <a href="../misc/Threads.htm">thread</a>) when the hotstring triggers.</p>
-    <p>By default, all strings are treated as replacement text. To specify a label or function by name, include the <a href="../Hotstrings.htm#X">X (execute)</a> option in <em>String</em>. Both normal labels and <a href="../Hotkeys.htm">hotkey</a>/<a href="../Hotstrings.htm">hotstring</a> labels can be used, and the trailing colon(s) should not be included. If a function and a label exist with the same name, the label takes precedence. To use the function instead, pass a <a href="../objects/Func.htm">function reference</a>.</p>
+    <p>The replacement string, or a <a href="../misc/Labels.htm">label</a>, <a href="../Functions.htm">function</a> or <a href="../misc/Functor.htm">function object</a> to call (as a new <a href="../misc/Threads.htm">thread</a>) when the hotstring triggers.</p>
+    <p>By default, all strings are treated as replacement text. To specify a label or function by name, include the <a href="../Hotstrings.htm#X">X (execute)</a> option in <em>String</em>. Both normal labels and <a href="../Hotkeys.htm">hotkey</a>/<a href="../Hotstrings.htm">hotstring</a> labels can be used, and the trailing colon(s) should not be included. If a function and a label exist with the same name, the label takes precedence. To use the function instead, pass a <a href="Func.htm">function reference</a>.</p>
     <p>This parameter can be left blank if the hotstring already exists, in which case its replacement will not be changed. This is useful to change only the hotstring's options, or to turn it on or off.</p>
     <p class="note"><strong>Note</strong>: If this parameter is specified but the hotstring is disabled from a previous use of this function, the hotstring will remain disabled. To prevent this, include the word <code>"On"</code> in <em>OnOffToggle</em>.</p>
   </dd>
@@ -54,7 +54,7 @@ OldValue := <span class="func">Hotstring</span>("<a href="#MouseReset">MouseRese
 
 <h2 id="Errors">Errors</h2>
 <p>This function throws an exception if the parameters are invalid or a memory allocation fails. It does not affect <a href="../misc/ErrorLevel.htm">ErrorLevel</a>.</p>
-<p>An exception is also thrown if <em>Replacement</em> is omitted and <em>String</em> is valid but does not match an existing hotstring. This can be utilized to test for the existence of a hotstring. For example:</p>
+<p>An exception is also thrown if <em>Replacement</em> is omitted and <em>String</em> is valid but does not match an existing hotstring. This can be utilized to test for the existence of a hotstring. Por ejemplo:</p>
 <pre>try
     Hotstring("::btw")
 catch
@@ -69,7 +69,7 @@ catch
 <p>Once a script has at least one hotstring, it becomes persistent, meaning that <a href="ExitApp.htm">ExitApp</a> rather than Exit should be used to terminate it. Hotstring scripts are also automatically <a href="_SingleInstance.htm">#SingleInstance</a> unless <code>#SingleInstance Off</code> has been specified.</p>
 
 <h2 id="variant">Variant (Duplicate) Hotstrings</h2>
-<p>A particular hotstring can be created more than once if each definition has different <a href="Hotkey.htm#IfWin">IfWin</a> criteria, <a href="../Hotstrings.htm#C">case-sensitivity</a> (<code>C</code> vs. <code>C0</code>/<code>C1</code>), or <a href="../Hotstrings.htm#Question">word-sensitivity</a> (<code>?</code>). These are known as <em>hotstring variants</em>. For example:</p>
+<p>A particular hotstring can be created more than once if each definition has different <a href="Hotkey.htm#IfWin">IfWin</a> criteria, <a href="../Hotstrings.htm#C">case-sensitivity</a> (<code>C</code> vs. <code>C0</code>/<code>C1</code>), or <a href="../Hotstrings.htm#Question">word-sensitivity</a> (<code>?</code>). These are known as <em>hotstring variants</em>. Por ejemplo:</p>
 <pre>Hotkey, IfWinActive, ahk_group CarForums
 Hotstring("::btw", "behind the wheel")
 Hotkey, IfWinActive, Inter-Office Chat
@@ -81,10 +81,10 @@ Hotstring("::btw", "by the way")</pre>
 
 <h2 id="EndChars">EndChars</h2>
 <pre class="Syntax">OldValue := <span class="func">Hotstring</span>("EndChars" <span class="optional">, NewValue</span>)</pre>
-<p>Retrieves or modifies the set of characters used as <a href="../Hotstrings.htm#EndChars">ending characters</a> by the hotstring recognizer. For example:</p>
+<p>Retrieves or modifies the set of characters used as <a href="../Hotstrings.htm#EndChars">ending characters</a> by the hotstring recognizer. Por ejemplo:</p>
 <pre>prev_chars := Hotstring("EndChars", "-()[]{}':;""/\,.?!`n `t")
 MsgBox The previous value was: %prev_chars%</pre>
-<p><a href="Hotstring.htm#EndChars">#Hotstring EndChars</a> also affects this setting.</p>
+<p><a href="#EndChars">#Hotstring EndChars</a> also affects this setting.</p>
 <p>It is currently not possible to specify a different set of end characters for each hotstring.</p>
 
 <h2 id="MouseReset">MouseReset</h2>
@@ -99,13 +99,13 @@ MsgBox The previous value was: %prev_chars%</pre>
 
 <h2 id="NewOptions">Setting Default Options</h2>
 <pre class="Syntax"><span class="func">Hotstring</span>(NewOptions)</pre>
-<p>To set new default options for subsequently created hotstrings, pass the options to the Hotstring function without any leading or trailing colon. For example: <code>Hotstring("T")</code>.</p>
+<p>To set new default options for subsequently created hotstrings, pass the options to the Hotstring function without any leading or trailing colon. Por ejemplo: <code>Hotstring("T")</code>.</p>
 <p>Turning on <a href="../Hotstrings.htm#C">case-sensitivity (C)</a> or <a href="../Hotstrings.htm#Question">word-sensitivity (?)</a> also affects which existing hotstrings will be found by any subsequent calls to the Hotstring function. For example, <code>Hotstring(":T:btw")</code> will find <code>::BTW</code> by default, but not if <code>Hotstring("C")</code> or <code><a href="_Hotstring.htm">#Hotstring</a> C</code> is in effect. This can be undone or overridden by passing a mutually-exclusive option; for example, <code>C0</code> and <code>C1</code> override <code>C</code>.</p>
 
 <h2 id="Related">Related</h2>
 <p><a href="../Hotstrings.htm">Hotstrings</a>, <a href="_IfWinActive.htm">#IfWinActive/Exist</a>, <a href="_MaxThreadsPerHotkey.htm">#MaxThreadsPerHotkey</a>, <a href="Suspend.htm">Suspend</a>, <a href="../misc/Threads.htm">Threads</a>, <a href="Thread.htm">Thread</a>, <a href="Critical.htm">Critical</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExHelper">
 <p><a class="ex_number" href="#ExHelper"></a> Hotstring Helper. The following script might be useful if you are a heavy user of hotstrings. It's based on <a href="../Hotstrings.htm#Helper">the script created by Andreas Borutta</a>. By pressing <kbd>Win</kbd>+<kbd>H</kbd> (or another hotkey of your choice), the currently selected text can be turned into a hotstring.  For example, if you have "by the way" selected in a word processor, pressing <kbd>Win</kbd>+<kbd>H</kbd> will prompt you for its abbreviation (e.g. btw) and then add the new hotstring to the script. The hotstring will be activated without reloading the script.</p>
@@ -125,8 +125,8 @@ if ErrorLevel  <em>; ClipWait timed out.</em>
 ; The same is done for any other characters that might otherwise
 ; be a problem in raw mode:</em>
 ClipContent := StrReplace(Clipboard, "``", "````")  <em>; Do this replacement first to avoid interfering with the others below.</em>
-ClipContent := StrReplace(ClipContent, "`r`n", "``r")  <em>; Using `r works better than `n in MS Word, etc.</em>
-ClipContent := StrReplace(ClipContent, "`n", "``r")
+ClipContent := StrReplace(ClipContent, "`r`n", "``n")
+ClipContent := StrReplace(ClipContent, "`n", "``n")
 ClipContent := StrReplace(ClipContent, "`t", "``t")
 ClipContent := StrReplace(ClipContent, "`;", "```;")
 Clipboard := ClipboardOld  <em>; Restore previous contents of clipboard.</em>

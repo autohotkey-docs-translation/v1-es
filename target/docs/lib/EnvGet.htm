@@ -19,10 +19,10 @@
 <dl>
 
   <dt>OutputVar</dt>
-  <dd><p>The name of the variable in which to store the string.</p></dd>
+  <dd><p>The name of the output variable in which to store the string.</p></dd>
 
   <dt>EnvVarName</dt>
-  <dd><p>The name of the <a href="../Concepts.htm#environment-variables">environment variable</a> to retrieve. For example: <code>EnvGet, OutputVar, Path</code>.</p></dd>
+  <dd><p>The name of the <a href="../Concepts.htm#environment-variables">environment variable</a> to retrieve. Por ejemplo: <code>EnvGet, OutputVar, Path</code>.</p></dd>
 
 </dl>
 <h2 id="Remarks">Remarks</h2>
@@ -30,7 +30,7 @@
 <p>The operating system limits each environment variable to 32 KB of text.</p>
 <h2 id="Related">Related</h2>
 <p><a href="EnvSet.htm">EnvSet</a>, <a href="_NoEnv.htm">#NoEnv</a>, <a href="../Concepts.htm#environment-variables">environment variables</a>, <a href="EnvUpdate.htm">EnvUpdate</a>, <a href="SetEnv.htm">SetEnv</a>, <a href="Run.htm">Run</a>, <a href="Run.htm">RunWait</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Retrieves an environment variable and stores its value in <var>OutputVar</var>.</p>
 <pre>EnvGet, OutputVar, LogonServer</pre>
@@ -40,6 +40,12 @@
 <p><a class="ex_number" href="#ExProgramFiles"></a> Retrieves and reports the path of the "Program Files" directory. See <a href="RegRead.htm#ExProgramFiles">RegRead example #2</a> for an alternative method.</p>
 <pre>EnvGet, OutputVar, % <a href="../Variables.htm#Is64bitOS">A_Is64bitOS</a> ? "ProgramW6432" : "ProgramFiles"
 MsgBox, Program files are in: %OutputVar%</pre>
+</div>
+
+<div class="ex" id="ExLocalAppData">
+<p><a class="ex_number" href="#ExLocalAppData"></a> Retrieves and reports the path of the current user's Local AppData directory.</p>
+<pre>EnvGet, LocalAppData, LocalAppData
+MsgBox, %A_UserName%'s Local directory is located at: %LocalAppData%</pre>
 </div>
 
 </body>

@@ -26,11 +26,17 @@ Sleep 1000 <em>; If successful, the reload will close this instance during the S
 MsgBox, 4,, The script could not be reloaded. Would you like to open it for editing?
 IfMsgBox, Yes, Edit
 return</pre>
-<p>AutoHotkey relies on the title of the script's <a href="../Program.htm#main-window">main window</a> to identify other running instances of the script.</p>
+<p>Previous instances of the script are identified by the same mechanism as for <a href="_SingleInstance.htm">#SingleInstance</a>, with the same <a href="_SingleInstance.htm#Limitations">limitations</a>.</p>
+<p>If the script allows multiple instances, Reload may fail to identify the correct instance. The simplest alternative is to <a href="Run.htm">Run</a> a new instance and then exit. Por ejemplo:</p>
+<pre>if A_IsCompiled
+    Run "%A_ScriptFullPath%" /force
+else
+    Run "%A_AhkPath%" /force "%A_ScriptFullPath%"
+ExitApp</pre>
 
 <h2 id="Related">Related</h2>
 <p><a href="Edit.htm">Edit</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExHotkey">
 <p><a class="ex_number" href="#ExHotkey"></a> Press a hotkey to restart the script.</p>
 <pre>^!r::Reload  <em>; Ctrl+Alt+R</em></pre>

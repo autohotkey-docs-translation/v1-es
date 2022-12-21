@@ -12,7 +12,7 @@
 <body>
 <h1>ListView</h1>
 
-<h2 id="toc">Table of Contents</h2>
+<h2 id="toc">Tabla de contenidos</h2>
 <ul>
   <li><a href="#Intro">Introduction and Simple Example</a></li>
   <li><a href="#Options">Options and Styles for the Options Parameter</a></li>
@@ -21,7 +21,7 @@
   <li><a href="#notify">G-Label Notifications</a></li>
   <li><a href="#IL">ImageLists</a> (the means by which icons are added to a ListView)</li>
   <li><a href="#Remarks">Remarks</a></li>
-  <li><a href="#Examples">Examples</a></li>
+  <li><a href="#Examples">Ejemplos</a></li>
 </ul>
 
 <h2 id="Intro">Introduction and Simple Example</h2>
@@ -83,7 +83,7 @@ ExitApp</pre>
 <p><strong>Tile</strong>: Shows a large-icon view but with ergonomic differences such as displaying each item's text to the right of the icon rather than underneath it. <a href="#Checked">Checkboxes</a> do not function in this view. Also, attempting to show this view on operating systems older than Windows XP has no effect.</p>
 <p><strong>IconSmall:</strong> Shows a small-icon view.</p>
 <p><strong>List:</strong> Shows a small-icon view in list format, which displays the icons in columns. The number of columns depends on the width of the control and the width of the widest text item in it.</p>
-<p><strong>Report:</strong> Switches back to report view, which is the initial default. For example: <code>GuiControl, +Report, MyListView</code>.</p>
+<p><strong>Report:</strong> Switches back to report view, which is the initial default. Por ejemplo: <code>GuiControl, +Report, MyListView</code>.</p>
 
 <h2 id="BuiltIn">Built-in Functions for ListViews</h2>
 <p>All of the ListView functions operate upon the current thread's <a href="Gui.htm#DefaultWin">default GUI window</a> (which can be changed via <code><a href="Gui.htm#Default">Gui, 2:Default</a></code>). If the default window does not exist or has no ListView controls, all functions return zero to indicate the problem.</p>
@@ -128,7 +128,8 @@ ExitApp</pre>
 <p><strong>Check</strong>: Shows a checkmark in the row (if the ListView has <a href="#Checked">checkboxes</a>). To later uncheck it, use <code>LV_Modify(RowNumber, "-Check")</code>.</p>
 <p id="ColN"><strong>Col</strong>: Specify the word Col followed immediately by the column number at which to begin applying the parameters <em>Col1</em> and beyond. This is most commonly used with <a href="#LV_Modify">LV_Modify()</a> to alter individual fields in a row without affecting those that lie to their left.</p>
 <p id="Focus"><strong>Focus</strong>: Sets keyboard focus to the row (often used in conjunction with Select). To later de-focus it, use <code>LV_Modify(RowNumber, "-Focus")</code>.</p>
-<p><strong>Icon</strong>: Specify the word Icon followed immediately by the number of this row's icon, which is displayed in the left side of the first column. If this option is absent, the first icon in the <a href="#IL">ImageList</a> is used. To display a blank icon, specify a number that is larger than the number of icons in the ImageList. If the control lacks a small-icon ImageList, no icon is displayed nor is any space reserved for one in <a href="#View">report view</a>.</p>
+<p><strong>Icon</strong>: Specify the word Icon followed immediately by the number of this row's icon, which is displayed in the left side of the first column. If this option is absent, the first icon in the <a href="#IL">ImageList</a> is used. To display a blank icon, specify -1 or a number that is larger than the number of icons in the ImageList. If the control lacks a small-icon ImageList, no icon is displayed nor is any space reserved for one in <a href="#View">report view</a>.</p>
+<p>This option accepts a one-based icon number, but this is internally translated to a zero-based index; therefore, <code>Icon0</code> corresponds to the constant <a href="https://docs.microsoft.com/en-us/windows/win32/controls/list-view-controls-overview#callback-items-and-the-callback-mask">I_IMAGECALLBACK</a>, which is normally defined as -1, and <code>Icon-1</code> corresponds to I_IMAGENONE. Other out of range values may also cause a blank space where the icon would be.</p>
 <p><strong>Select</strong>: Selects the row. To later deselect it, use <code>LV_Modify(RowNumber, "-Select")</code>. When selecting rows, it is usually best to ensure that at least one row always has the <a href="#Focus">focus property</a> because that allows the Apps key to display its <a href="Gui.htm#GuiContextMenu">context menu</a> (if any) near the focused row. The word <em>Select</em> may optionally be followed immediately by a 0 or 1 to indicate the starting state. In other words, both <code>"Select"</code> and <code>"Select" <strong>.</strong> VarContainingOne</code> are the same (the period used here is the <a href="../Variables.htm#concat">concatenation operator</a>). This technique also works with <em>Focus</em> and <em>Check</em> above.</p>
 <p id="Vis"><strong>Vis</strong> <span class="ver">[v1.0.44+]</span>: Ensures that the specified row is completely visible by scrolling the ListView, if necessary. This has an effect only for <a href="#LV_Modify">LV_Modify()</a>; for example: <code>LV_Modify(RowNumber, "Vis")</code>.</p>
 
@@ -196,7 +197,7 @@ ExitApp</pre>
 <p>Returns the total number of rows or columns, or the number of selected rows only.</p>
 <pre class="Syntax"><span class="func">LV_GetCount</span>(<span class="optional">Mode</span>)</pre>
 <p>When the parameter is omitted, the function returns the total number of rows in the control. When the parameter is "S" or "Selected", the count includes only the selected/highlighted rows. When the parameter is "Col" or "Column", the function returns the number of columns in the control. This function is always instantaneous because the control keeps track of these counts.</p>
-<p>This function is often used in the top line of a Loop, in which case the function would get called only once (prior to the first iteration). For example:</p>
+<p>This function is often used in the top line of a Loop, in which case the function would get called only once (prior to the first iteration). Por ejemplo:</p>
 <pre>Loop % LV_GetCount()
 {
     LV_GetText(RetrievedText, A_Index)
@@ -255,7 +256,7 @@ IsChecked := (ErrorLevel &gt;&gt; 12) - 1  <em>; This sets IsChecked to true if 
 <h2 id="G-Label_Notifications_Secondary">G-Label Notifications (Secondary)</h2>
 <p>If the ListView has the word AltSubmit in its <a href="#Options">options</a>, its g-label is launched more often and <strong>A_GuiEvent</strong> may contain the following additional values:</p>
 <p><strong>Normal</strong>: The user has left-clicked a row. The variable A_EventInfo contains the focused row number.</p>
-<p><strong>RightClick</strong>: The user has right-clicked a row. The variable A_EventInfo contains the focused row number. In most cases, it is best not to display a menu in response to this. Instead, use the <a href="Gui.htm#GuiContextMenu">GuiContextMenu label</a> because it also recognizes the Apps key. For example:</p>
+<p><strong>RightClick</strong>: The user has right-clicked a row. The variable A_EventInfo contains the focused row number. In most cases, it is best not to display a menu in response to this. Instead, use the <a href="Gui.htm#GuiContextMenu">GuiContextMenu label</a> because it also recognizes the Apps key. Por ejemplo:</p>
 <pre>GuiContextMenu:  <em>; Launched in response to a right-click or press of the Apps key.</em>
 if (A_GuiControl != "MyListView")  <em>; This check is optional. It displays the menu only for clicks inside the ListView.</em>
     return
@@ -311,7 +312,7 @@ ExitApp</pre>
 <h2 id="Remarks">Remarks</h2>
 <p>The <a href="Gui.htm#Submit">Gui Submit</a> command has no effect on a ListView control. Therefore, the script may use the ListView's <a href="Gui.htm#var">associated variable</a> (if any) to store other data without concern that it will ever be overwritten.</p>
 <p>After a column is sorted -- either by means of the user clicking its header or the script calling <code><a href="#LV_ModifyCol">LV_ModifyCol</a>(1, "Sort")</code> -- any subsequently added rows will appear at the bottom of the list rather than obeying the sort order. The exception to this is the <a href="#Sort">Sort</a> and <a href="#SortDesc">SortDesc</a> styles, which move newly added rows into the correct positions.</p>
-<p id="Enter">To detect when the user has pressed <kbd>Enter</kbd> while a ListView has focus, use a <a href="GuiControls.htm#DefaultButton">default button</a> (which can be hidden if desired). For example:</p>
+<p id="Enter">To detect when the user has pressed <kbd>Enter</kbd> while a ListView has focus, use a <a href="GuiControls.htm#DefaultButton">default button</a> (which can be hidden if desired). Por ejemplo:</p>
 <pre>Gui, Add, Button, Hidden Default, OK
 ...
 ButtonOK:
@@ -332,7 +333,7 @@ return</pre>
 <h2 id="Related">Related</h2>
 <p><a href="TreeView.htm">TreeView</a>, <a href="GuiControls.htm">Other Control Types</a>, <a href="Gui.htm">Gui</a>, <a href="Gui.htm#GuiContextMenu">GuiContextMenu</a>, <a href="GuiControl.htm">GuiControl</a>, <a href="GuiControlGet.htm">GuiControlGet</a>, <a href="../misc/Styles.htm#ListView">ListView styles table</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExAllRows">
 <p><a class="ex_number" href="#ExAllRows"></a> Selects or de-selects all rows by specifying 0 as the row number.</p>

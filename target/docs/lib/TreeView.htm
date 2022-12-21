@@ -12,14 +12,14 @@
 <body>
 <h1>TreeView <span class="ver">[v1.0.44+]</span></h1>
 
-<h2 id="toc">Table of Contents</h2>
+<h2 id="toc">Tabla de contenidos</h2>
 <ul>
   <li><a href="#Intro">Introduction and Simple Example</a></li>
   <li><a href="#Options">Options and Styles for the Options Parameter</a></li>
   <li><a href="#BuiltIn">Built-in Functions for TreeViews</a></li>
   <li><a href="#notify">G-Label Notifications</a></li>
   <li><a href="#Remarks">Remarks</a></li>
-  <li><a href="#Examples">Examples</a></li>
+  <li><a href="#Examples">Ejemplos</a></li>
 </ul>
 
 <h2 id="Intro">Introduction and Simple Example</h2>
@@ -153,7 +153,7 @@ return</pre>
 <ul>
   <li>When all parameters are omitted, it returns the ID number of the first/top item in the TreeView (or 0 if none).</li>
   <li>When only <em>ItemID</em> is present, it returns the ID number of the sibling below the specified item (or 0 if none). If <em>ItemID</em> is 0, it returns the ID number of the first/top item in the TreeView (or 0 if none).</li>
-  <li>When <em>ItemType</em> is "Full" or "F", the next item is retrieved regardless of its relationship to the specified item. This allows the script to easily traverse the entire tree, item by item. For example:
+  <li>When <em>ItemType</em> is "Full" or "F", the next item is retrieved regardless of its relationship to the specified item. This allows the script to easily traverse the entire tree, item by item. Por ejemplo:
     <pre>ItemID := 0  <em>; Causes the loop's first iteration to start the search at the top of the tree.</em>
 Loop
 {
@@ -194,7 +194,7 @@ Loop
 <h2 id="G-Label_Notifications_Secondary">G-Label Notifications (Secondary)</h2>
 <p>If the TreeView has the word AltSubmit in its <a href="#Options">options</a>, its g-label is launched more often and <strong>A_GuiEvent</strong> may contain the following additional values:</p>
 <p><strong>Normal</strong>: The user has left-clicked an item. The variable A_EventInfo contains the item ID.</p>
-<p><strong>RightClick</strong>: The user has right-clicked an item. The variable A_EventInfo contains the item ID. In most cases, it is best not to display a menu in response to this. Instead, use the <a href="Gui.htm#GuiContextMenu">GuiContextMenu label</a> because it also recognizes the Apps key. For example:</p>
+<p><strong>RightClick</strong>: The user has right-clicked an item. The variable A_EventInfo contains the item ID. In most cases, it is best not to display a menu in response to this. Instead, use the <a href="Gui.htm#GuiContextMenu">GuiContextMenu label</a> because it also recognizes the Apps key. Por ejemplo:</p>
 <pre>GuiContextMenu:  <em>; Launched in response to a right-click or press of the Apps key.</em>
 if (A_GuiControl != "MyTreeView")  <em>; This check is optional. It displays the menu only for clicks inside the TreeView.</em>
     return
@@ -211,7 +211,7 @@ return</pre>
 
 <h2 id="Remarks">Remarks</h2>
 <p>The <a href="Gui.htm#Submit">Gui Submit</a> command has no effect on a TreeView control. Therefore, the script may use the TreeView's <a href="Gui.htm#var">associated variable</a> (if any) to store other data without concern that it will ever be overwritten.</p>
-<p id="Enter">To detect when the user has pressed <kbd>Enter</kbd> while a TreeView has focus, use a <a href="GuiControls.htm#DefaultButton">default button</a> (which can be hidden if desired). For example:</p>
+<p id="Enter">To detect when the user has pressed <kbd>Enter</kbd> while a TreeView has focus, use a <a href="GuiControls.htm#DefaultButton">default button</a> (which can be hidden if desired). Por ejemplo:</p>
 <pre>Gui, Add, Button, Hidden Default, OK
 ...
 ButtonOK:
@@ -231,7 +231,7 @@ return</pre>
 <h2 id="Related">Related</h2>
 <p><a href="ListView.htm">ListView</a>, <a href="GuiControls.htm">Other Control Types</a>, <a href="Gui.htm">Gui</a>, <a href="Gui.htm#GuiContextMenu">GuiContextMenu</a>, <a href="GuiControl.htm">GuiControl</a>, <a href="GuiControlGet.htm">GuiControlGet</a>, <a href="../misc/Styles.htm#TreeView">TreeView styles table</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExAdvanced">
 <p><a class="ex_number" href="#ExAdvanced"></a> The following is a working script that is more elaborate than the one near the top of this page. It creates and displays a TreeView containing all folders in the all-users Start Menu. When the user selects a folder, its contents are shown in a ListView to the right (like Windows Explorer). In addition, a <a href="GuiControls.htm#StatusBar">StatusBar</a> control shows information about the currently selected folder.</p>

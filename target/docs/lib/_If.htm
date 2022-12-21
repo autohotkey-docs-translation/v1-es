@@ -3,7 +3,7 @@
 <head>
 <title>#If - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The #If directive creates context-sensitive hotkeys and hotstrings. Such hotkeys perform a different action (or none at all) depending on the result of an expression." />
-<meta name="ahk:equiv-v2" content="commands/_HotIf.htm" />
+<meta name="ahk:equiv-v2" content="lib/_HotIf.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -26,11 +26,11 @@
 </dl>
 
 <h2 id="Basic_Operation">Basic Operation</h2>
-<p>Any valid expression may be used to define the context in which a hotkey should be active. For example:</p>
+<p>Any valid expression may be used to define the context in which a hotkey should be active. Por ejemplo:</p>
 <pre>#If WinActive("ahk_class Notepad") or WinActive(MyWindowTitle)
 #Space::MsgBox You pressed Win+Spacebar in Notepad or %MyWindowTitle%.</pre>
 <p>Like the #IfWin directives, #If is positional: it affects all hotkeys and hotstrings physically beneath it in the script. #If and #IfWin are also mutually exclusive; that is, only the most recent #If or #IfWin will be in effect.</p>
-<p>To turn off context sensitivity, specify #If or any #IfWin directive but omit all the parameters. For example:</p>
+<p>To turn off context sensitivity, specify #If or any #IfWin directive but omit all the parameters. Por ejemplo:</p>
 <pre>#If</pre>
 <p>Like other directives, #If cannot be executed conditionally.</p>
 
@@ -53,7 +53,7 @@
 <p>Most behavioural properties of the <a href="_IfWinActive.htm">#IfWin</a> directives also apply to #If.</p>
 <p><a href="_IfTimeout.htm">#IfTimeout</a> may be used to override the default timeout value.</p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExVolume">
 <p><a class="ex_number" href="#ExVolume"></a> Allows the volume to be adjusted by scrolling the mouse wheel over the taskbar.</p>
@@ -94,7 +94,7 @@ Esc::ExitApp
 </div>
 
 <div class="ex" id="ExDynamic">
-<p><a class="ex_number" href="#ExDynamic"></a> Dynamic Hotkeys. This example requires the MousIsOver function from <a href="#ExVolume">example #1</a>.</p>
+<p><a class="ex_number" href="#ExDynamic"></a> Dynamic Hotkeys. This example should be combined with <a href="#ExVolume">example #1</a> before running it.</p>
 <pre>
 NumpadAdd::
 Hotkey, If, MouseIsOver("ahk_class Shell_TrayWnd")

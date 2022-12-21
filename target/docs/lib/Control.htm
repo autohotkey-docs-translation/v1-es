@@ -92,7 +92,7 @@
 <p>Changes the style of a control.</p>
 <pre class="Syntax"><span class="func">Control</span>, Style, N <span class="optional">, Control, WinTitle, WinText, ExcludeTitle, ExcludeText</span></pre>
 <p>If the first character of <em>N</em> is a plus or minus sign, the style(s) in <em>N</em> are added or removed, respectively. If the first character is a caret (^), the style(s) in N are each toggled to the opposite state. If the first character is a digit, the control's style is overwritten completely; that is, it becomes <em>N</em>. <a href="../misc/ErrorLevel.htm">ErrorLevel</a> is set to 1 if the target window/control is not found or the style is not allowed to be applied.</p>
-<p>Certain style changes require that the entire window be redrawn using <a href="WinSet.htm">WinSet Redraw</a>. Also, the <a href="../misc/Styles.htm">styles table</a> lists some of the style numbers. For example:</p>
+<p>Certain style changes require that the entire window be redrawn using <a href="WinSet.htm">WinSet Redraw</a>. Also, the <a href="../misc/Styles.htm">styles table</a> lists some of the style numbers. Por ejemplo:</p>
 <pre>Control, Style, ^0x800000, Edit1, WinTitle  <em>; Set the WS_BORDER style to its opposite state.</em></pre>
 
 <h3 id="ExStyle">ExStyle</h3>
@@ -158,7 +158,7 @@ SendMessage, 0x130C, <span class="red">5</span>,, SysTabControl321, WinTitle  <e
 <h2 id="Related">Related</h2>
 <p><a href="SetControlDelay.htm">SetControlDelay</a>, <a href="ControlGet.htm">ControlGet</a>, <a href="GuiControl.htm">GuiControl</a>, <a href="ControlGetText.htm">ControlGetText</a>, <a href="ControlSetText.htm">ControlSetText</a>, <a href="ControlMove.htm">ControlMove</a>, <a href="ControlGetPos.htm">ControlGetPos</a>, <a href="ControlClick.htm">ControlClick</a>, <a href="ControlFocus.htm">ControlFocus</a>, <a href="ControlSend.htm">ControlSend</a>, <a href="WinSet.htm">WinSet</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Hides the drop-down list of the first ComboBox.</p>

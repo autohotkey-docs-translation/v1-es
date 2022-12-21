@@ -3,7 +3,7 @@
 <head>
 <title>If (Expression) - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content='The "if (expression)" statement specifies one or more statements to execute if an expression evaluates to true.' />
-<meta name="ahk:equiv-v2" content="commands/If.htm" />
+<meta name="ahk:equiv-v2" content="lib/If.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -29,7 +29,7 @@
 <p>If the <em>If</em> statement's expression evaluates to true (which is any result other than an empty string or the number 0), the line or <a href="Block.htm">block</a> underneath it is executed. Otherwise, if there is a corresponding <a href="Else.htm">Else</a> statement, execution jumps to the line or block underneath it.</p>
 <p>If an <em>If</em> owns more than one line, those lines must be enclosed in braces (to create a <a href="Block.htm">block</a>). However, if only one line belongs to an <em>If</em>, the braces are optional. See the examples at the bottom of this page.</p>
 <p>The space after <code>if</code> is optional if the expression starts with an open-parenthesis, as in <code>if(expression)</code>.</p>
-<p id="otb">The One True Brace (OTB) style may optionally be used with <em>If</em> statements that are expressions (but not <a href="IfEqual.htm">traditional If statements</a>). For example:</p>
+<p id="otb">The One True Brace (OTB) style may optionally be used with <em>If</em> statements that are expressions (but not <a href="IfEqual.htm">traditional If statements</a>). Por ejemplo:</p>
 <pre>if (x &lt; y) {
     <em>; ...</em>
 }
@@ -47,7 +47,7 @@ if IsDone {
 <h2 id="Related">Related</h2>
 <p><a href="../Variables.htm#Expressions">Expressions</a>, <a href="SetExpression.htm">Assign expression (:=)</a>, <a href="IfIn.htm">if var in/contains</a>, <a href="IfBetween.htm">if var between</a>, <a href="IfInString.htm">IfInString</a>, <a href="Block.htm">Blocks</a>, <a href="Else.htm">Else</a>, <a href="While.htm">While-loop</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExOne">
 <p><a class="ex_number" href="#ExOne"></a> If <var>A_Index</var> is greater than 100, return.</p>
 <pre>if (A_Index &gt; 100)

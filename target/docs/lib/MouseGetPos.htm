@@ -19,16 +19,16 @@
 <dl>
 
   <dt>OutputVarX, OutputVarY</dt>
-  <dd><p>The names of the variables in which to store the X and Y coordinates. The retrieved coordinates are relative to the active window unless <a href="CoordMode.htm">CoordMode</a> was used to change to screen coordinates.</p>
+  <dd><p>The names of the output variables in which to store the X and Y coordinates. The retrieved coordinates are relative to the active window unless <a href="CoordMode.htm">CoordMode</a> was used to change to screen coordinates.</p>
     </dd>
 
   <dt>OutputVarWin</dt>
-  <dd><p>This optional parameter is the name of the variable in which to store the <a href="WinGet.htm">unique ID number</a> of the window under the mouse cursor. If the window cannot be determined, this variable  will be made blank.</p>
+  <dd><p>This optional parameter is the name of the output variable in which to store the <a href="WinGet.htm">unique ID number</a> of the window under the mouse cursor. If the window cannot be determined, this variable  will be made blank.</p>
       <p>The window does not have to be active to be detected. Hidden windows cannot be detected.</p></dd>
 
   <dt>OutputVarControl</dt>
-  <dd><p>This optional parameter is the name of the variable in which to store the name (ClassNN) of the control under the mouse cursor.  If the control cannot be determined, this variable  will be made blank.</p>
-      <p>The names of controls should always match those shown by the version of Window Spy distributed with <span class="ver">[v1.0.14+]</span> (but not necessarily older versions of Window Spy). However, unlike Window Spy, the window under the mouse cursor does not have to be active for a control to be detected.</p></dd>
+  <dd><p>This optional parameter is the name of the output variable in which to store the name (ClassNN) of the control under the mouse cursor.  If the control cannot be determined, this variable  will be made blank.</p>
+      <p>The names of controls should always match those shown by the version of Window Spy distributed with <span class="ver">[v1.0.14+]</span> (but not necessarily older versions of Window Spy). The window under the mouse cursor does not have to be active for a control to be detected.</p></dd>
 
   <dt>Flag</dt>
   <dd>
@@ -42,9 +42,12 @@
 
 <h2 id="Remarks">Remarks</h2>
 <p>Any of the output variables may be omitted if the corresponding information is not needed.</p>
+<p>On systems with multiple screens which have different DPI settings, the returned position may be different than expected due to <a href="../misc/DPIScaling.htm">OS DPI scaling</a>.</p>
+
 <h2 id="Related">Related</h2>
 <p><a href="CoordMode.htm">CoordMode</a>, <a href="WinGet.htm">WinGet</a>, <a href="SetDefaultMouseSpeed.htm">SetDefaultMouseSpeed</a>, <a href="Click.htm">Click</a></p>
-<h2 id="Examples">Examples</h2>
+
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Reports the position of the mouse cursor.</p>
 <pre>MouseGetPos, xpos, ypos 

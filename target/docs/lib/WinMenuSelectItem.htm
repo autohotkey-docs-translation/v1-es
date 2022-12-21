@@ -3,7 +3,7 @@
 <head>
 <title>WinMenuSelectItem - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The WinMenuSelectItem command invokes a menu item from the menu bar of the specified window." />
-<meta name="ahk:equiv-v2" content="commands/MenuSelect.htm" />
+<meta name="ahk:equiv-v2" content="lib/MenuSelect.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -64,12 +64,12 @@
 <p>Window titles and text are case sensitive. Hidden windows are not detected unless <a href="DetectHiddenWindows.htm">DetectHiddenWindows</a> has been turned on.</p>
 
 <h2 id="sys">System Menu <span class="ver">[v1.1.28+]</span></h2>
-<p><em>Menu</em> can be <code>0&amp;</code> to select an item within the window's system menu, which typically appears when the user presses <kbd>Alt</kbd>+<kbd>Space</kbd> or clicks on the icon in the window's title bar. For example:</p>
+<p><em>Menu</em> can be <code>0&amp;</code> to select an item within the window's system menu, which typically appears when the user presses <kbd>Alt</kbd>+<kbd>Space</kbd> or clicks on the icon in the window's title bar. Por ejemplo:</p>
 <pre><em>; Paste a command into cmd.exe without activating the window.</em>
 Clipboard := "echo Hello, world!`r"
 WinMenuSelectItem ahk_exe cmd.exe,, 0&amp;, Edit, Paste</pre>
 <p class="warning"><strong>Caution:</strong> Use this only on windows which have custom items in their system menu.</p>
-<p>If the window does not already have a custom system menu, a copy of the standard system menu will be created and assigned to the target window as a side effect. This copy is destroyed by the system when the script exits, leaving other scripts unable to access it. Therefore, avoid using 0&amp; for the standard items which appear on all windows. Instead, post the <a href="https://msdn.microsoft.com/library/ms646360">WM_SYSCOMMAND</a> message directly. For example:</p>
+<p>If the window does not already have a custom system menu, a copy of the standard system menu will be created and assigned to the target window as a side effect. This copy is destroyed by the system when the script exits, leaving other scripts unable to access it. Therefore, avoid using 0&amp; for the standard items which appear on all windows. Instead, post the <a href="https://msdn.microsoft.com/library/ms646360">WM_SYSCOMMAND</a> message directly. Por ejemplo:</p>
 <pre><em>; Like "<a href="WinMinimize.htm">WinMinimize</a> A", but also play the system sound for minimizing.</em>
 WM_SYSCOMMAND := 0x0112
 SC_MINIMIZE := 0xF020
@@ -77,15 +77,22 @@ PostMessage WM_SYSCOMMAND, SC_MINIMIZE, 0,, A</pre>
 
 <h2 id="Related">Related</h2>
 <p><a href="ControlSend.htm">ControlSend</a>, <a href="PostMessage.htm">PostMessage</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
-<p><a class="ex_number" href="#ExBasic"></a> Selects File-&gt;Open in Notepad.</p>
+<p><a class="ex_number" href="#ExBasic"></a> Selects <code class="no-highlight">File -&gt; Open</code> in Notepad. This example may fail on Windows 11 or later, as it requires the classic version of Notepad.</p>
 <pre>WinMenuSelectItem, Untitled - Notepad,, File, Open</pre>
 </div>
 
 <div class="ex" id="ExPos">
-<p><a class="ex_number" href="#ExPos"></a> Same as above except it is done by position instead of name.</p>
+<p><a class="ex_number" href="#ExPos"></a> Same as above except it is done by position instead of name. On Windows 10, 2&amp; must be replaced with 3&amp; due to the new "New Window" menu item. This example may fail on Windows 11 or later, as it requires the classic version of Notepad.</p>
 <pre>WinMenuSelectItem, Untitled - Notepad,, 1&amp;, 2&amp;</pre>
+</div>
+
+<div class="ex" id="ExMainWin">
+<p><a class="ex_number" href="#ExMainWin"></a> Selects <code class="no-highlight">View -&gt; Lines most recently executed</code> in the <a href="../Program.htm#main-window">main window</a>.</p>
+<pre>#Persistent
+WinShow, ahk_class AutoHotkey
+WinMenuSelectItem, ahk_class AutoHotkey,, View, Lines most recently executed</pre>
 </div>
 
 </body>

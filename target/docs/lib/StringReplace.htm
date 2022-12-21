@@ -3,7 +3,7 @@
 <head>
 <title>StringReplace - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The StringReplace command replaces the specified substring with a new string." />
-<meta name="ahk:equiv-v2" content="commands/StrReplace.htm" />
+<meta name="ahk:equiv-v2" content="lib/StrReplace.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -20,10 +20,10 @@
 <dl>
 
   <dt>OutputVar</dt>
-  <dd>The name of the variable in which to store the result of the replacement process.</dd>
+  <dd>The name of the output variable in which to store the result of the replacement process.</dd>
 
   <dt>InputVar</dt>
-  <dd>The name of the variable whose contents will be read from. Do not enclose the name in percent signs unless you want the <em>contents</em> of the variable to be used as the name.</dd>
+  <dd>The name of the input variable whose contents will be read from. Do not enclose the name in percent signs unless you want the <em>contents</em> of the variable to be used as the name.</dd>
 
   <dt>SearchText</dt>
   <dd>The string to search for. Matching is not case sensitive unless <a href="StringCaseSense.htm">StringCaseSense</a> has been turned on.</dd>
@@ -50,7 +50,7 @@
 <h2 id="Related">Related</h2>
 <p><a href="StrReplace.htm">StrReplace()</a>, <a href="RegExReplace.htm">RegExReplace()</a>, <a href="IfInString.htm">IfInString</a>, <a href="StringCaseSense.htm">StringCaseSense</a>, <a href="StringLeft.htm">StringLeft</a>, <a href="StringLeft.htm">StringRight</a>, <a href="StringMid.htm">StringMid</a>, <a href="StringTrimLeft.htm">StringTrimLeft</a>, <a href="StringTrimLeft.htm">StringTrimRight</a>, <a href="StringLen.htm">StringLen</a>, <a href="StringLower.htm">StringLower</a>, <a href="StringLower.htm">StringUpper</a>, <a href="StringGetPos.htm">StringGetPos</a>,  <a href="IfIs.htm">if var is type</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExClipboard">
 <p><a class="ex_number" href="#ExClipboard"></a> Removes all CR+LF's from the clipboard contents.</p>
 <pre>StringReplace, Clipboard, Clipboard, `r`n, , All</pre>

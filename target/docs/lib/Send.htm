@@ -41,7 +41,7 @@
         <th>Key</th>
         <th>Press</th>
         <th>Release</th>
-        <th>Examples</th>
+        <th>Ejemplos</th>
       </tr>
       <tr>
         <td>^</td>
@@ -120,7 +120,7 @@
   </tr>
   <tr>
     <td>{F1} - {F24}</td>
-    <td>Function keys. For example: {F12} is <kbd>F12</kbd>.</td>
+    <td>Function keys. Por ejemplo: {F12} is <kbd>F12</kbd>.</td>
   </tr>
   <tr>
     <td>{!}</td>
@@ -232,7 +232,7 @@
   </tr>
   <tr class="sep_below">
     <td>{Control down} or {Ctrl down}</td>
-    <td>Holds <kbd>Ctrl</kbd> down until {Ctrl up} is sent. To hold down the left or right key instead, use {RCtrl down} and {RCtrl up}.</td>
+    <td>Holds <kbd>Ctrl</kbd> down until {Ctrl up} is sent. To hold down the left or right key instead, replace Ctrl with LCtrl or RCtrl.</td>
   </tr>
   <tr>
     <td>{Alt}</td>
@@ -248,7 +248,7 @@
   </tr>
   <tr class="sep_below">
     <td>{Alt down}</td>
-    <td>Holds <kbd>Alt</kbd> down until {Alt up} is sent. To hold down the left or right key instead, use {RAlt down} and {RAlt up}.</td>
+    <td>Holds <kbd>Alt</kbd> down until {Alt up} is sent. To hold down the left or right key instead, replace Alt with LAlt or RAlt.</td>
   </tr>
   <tr>
     <td>{Shift}</td>
@@ -264,7 +264,7 @@
   </tr>
   <tr class="sep_below">
     <td>{Shift down}</td>
-    <td>Holds <kbd>Shift</kbd> down until {Shift up} is sent. To hold down the left or right key instead, use {RShift down} and {RShift up}.</td>
+    <td>Holds <kbd>Shift</kbd> down until {Shift up} is sent. To hold down the left or right key instead, replace Shift with LShift or RShift.</td>
   </tr>
   <tr>
     <td>{LWin}</td>
@@ -304,13 +304,13 @@
     <td><p>{vkXX}<br>
       {scYYY}<br>
     {vkXXscYYY}</p></td>
-    <td><p>Sends a keystroke that has virtual key XX and scan code YYY. For example: <code>Send {vkFFsc159}</code>. If the sc or vk portion is omitted, the most appropriate value is sent in its place.</p>
+    <td><p>Sends a keystroke that has virtual key XX and scan code YYY. Por ejemplo: <code>Send {vkFFsc159}</code>. If the sc or vk portion is omitted, the most appropriate value is sent in its place.</p>
       <p>The values for XX and YYY are hexadecimal and can usually be determined from the main window's <a href="KeyHistory.htm">View-&gt;Key history</a> menu item. See also: <a href="../KeyList.htm#SpecialKeys">Special Keys</a></p>
       <p class="warning"><strong>Warning:</strong> Combining vk and sc in this manner is valid only with Send. Prior to <span class="ver">[v1.1.27]</span>, hotkeys permitted but ignored any non-hexadecimal characters following XX.</p></td>
   </tr>
   <tr>
     <td>{Numpad0} - {Numpad9}</td>
-    <td>Numpad digit keys (as seen when <kbd>NumLock</kbd> is ON). For example: {Numpad5} is <kbd>5</kbd>.</td>
+    <td>Numpad digit keys (as seen when <kbd>NumLock</kbd> is ON). Por ejemplo: {Numpad5} is <kbd>5</kbd>.</td>
   </tr>
   <tr>
     <td>{NumpadDot}</td>
@@ -493,11 +493,11 @@
 </table>
 
 <h2 id="Repeating_or_Holding_Down_a_Key">Repeating or Holding Down a Key</h2>
-<p id="repeat"><strong>To repeat a keystroke</strong>: Enclose in braces the name of the key followed by the number of times to repeat it. For example:</p>
+<p id="repeat"><strong>To repeat a keystroke</strong>: Enclose in braces the name of the key followed by the number of times to repeat it. Por ejemplo:</p>
 <pre>Send {DEL 4}  <em>; Presses the Delete key 4 times.</em>
 Send {S 30}   <em>; Sends 30 uppercase S characters.</em>
 Send +{TAB 4}  <em>; Presses Shift-Tab 4 times.</em></pre>
-<p id="Down"><strong>To hold down or release a key</strong>: Enclose in braces the name of the key followed by the word <strong>Down</strong> or <strong>Up</strong>. For example:</p>
+<p id="Down"><strong>To hold down or release a key</strong>: Enclose in braces the name of the key followed by the word <strong>Down</strong> or <strong>Up</strong>. Por ejemplo:</p>
 <pre>Send {b down}{b up}
 Send {TAB down}{TAB up}
 Send {Up down}  <em>; Press down the up-arrow key.</em>
@@ -559,7 +559,7 @@ Send {Tab up}  <em>; Release the key.</em></pre>
 <h2 id="Related">Related</h2>
 <p><a href="SendMode.htm">SendMode</a>, <a href="SetKeyDelay.htm">SetKeyDelay</a>, <a href="SetStoreCapslockMode.htm">SetStoreCapsLockMode</a>, <a href="../misc/EscapeChar.htm">Escape sequences (e.g. `%)</a>, <a href="ControlSend.htm">ControlSend</a>, <a href="BlockInput.htm">BlockInput</a>, <a href="../Hotstrings.htm">Hotstrings</a>, <a href="WinActivate.htm">WinActivate</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Types a two-line signature.</p>
 <pre>Send Sincerely,{enter}John Smith</pre>

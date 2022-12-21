@@ -18,11 +18,8 @@
 <h2 id="Parameters">Parameters</h2>
 <dl>
 
-  <dt>Result</dt>
-  <dd><p>DllCall returns the actual value returned by the function. If the function is of a type that does not return a value, the result is an undefined integer. If the function cannot be called due to an <a href="#error">error</a>, the return value is blank (an empty string).</p></dd>
-
   <dt>[DllFile\]Function</dt>
-  <dd><p>The DLL or EXE file name followed by a backslash and the name of the function. For example: <code>"MyDLL\MyFunction"</code> (the file extension ".dll" is the default when omitted). If an absolute path isn't specified, <em>DllFile</em> is assumed to be in the system's PATH or <a href="../Variables.htm#WorkingDir">A_WorkingDir</a>.</p>
+  <dd><p>The DLL or EXE file name followed by a backslash and the name of the function. Por ejemplo: <code>"MyDLL\MyFunction"</code> (the file extension ".dll" is the default when omitted). If an absolute path isn't specified, <em>DllFile</em> is assumed to be in the system's PATH or <a href="../Variables.htm#WorkingDir">A_WorkingDir</a>. Note that DllCall() expects a path with backslashes (\). Forward slashes (/) are not supported.</p>
       <p id="std"><em>DllFile</em> may be omitted when calling a function that resides in User32.dll, Kernel32.dll, ComCtl32.dll, or Gdi32.dll. For example, <code>"User32\IsWindowVisible"</code> produces the same result as <code>"IsWindowVisible"</code>.</p>
       <p>If no function can be found by the given name, an A (ANSI) or W (Unicode) suffix is automatically appended based on which version of AutoHotkey is running the script. For example, <code>"MessageBox"</code> is the same as <code>"MessageBoxA"</code> in ANSI versions and <code>"MessageBoxW"</code> in Unicode versions.</p>
       <p>Performance can be dramatically improved when making <em>repeated</em> calls to a DLL by <a href="#load">loading it beforehand</a>.</p>
@@ -33,11 +30,14 @@
 
   <dt>Cdecl ReturnType</dt>
   <dd><p id="cdecl">The word <em>Cdecl</em> is normally omitted because most functions use the standard calling convention rather than the "C" calling convention (functions such as wsprintf that accept a varying number of arguments are one exception to this). If you omit Cdecl but the call yields <a href="#An">ErrorLevel A<strong>n</strong></a> -- where <strong>n</strong> is the total size of the arguments you passed -- <em>Cdecl</em> might be required. Note that most object-oriented C++ functions use the <i>thiscall</i> convention, which is not supported.</p>
-      <p>If present, the word <em>Cdecl</em> should be listed before the return type (if any). Separate each word from the next with a space or tab. For example: <code>"Cdecl Str"</code>.</p>
+      <p>If present, the word <em>Cdecl</em> should be listed before the return type (if any). Separate each word from the next with a space or tab. Por ejemplo: <code>"Cdecl Str"</code>.</p>
       <p><span class="ver">[AHK_L 53+]:</span> Since a separate "C" calling convention does not exist in 64-bit code, <i>Cdecl</i> may be specified but has no effect on 64-bit builds of AutoHotkey.</p>
       <p><em>ReturnType</em>: If the function returns a 32-bit signed integer (Int), BOOL, or nothing at all, <em>ReturnType</em> may be omitted. Otherwise, specify one of the argument types from the <a href="#types">types table</a> below. The <a href="#asterisk">asterisk suffix</a> is also supported.</p></dd>
 
 </dl>
+
+<h2 id="Return_Value">Return Value</h2>
+<p>DllCall returns the actual value returned by <em>Function</em>. If <em>Function</em> is of a type that does not return a value, the result is an undefined integer. If <em>Function</em> cannot be called due to an <a href="#error">error</a>, the return value is blank (an empty string).</p>
 
 <h2 id="types">Types of Arguments and Return Values</h2>
 <table class="info">
@@ -128,12 +128,12 @@ DllCall("DeleteFile", Ptr, &amp;filename) <em>; Omit the quote marks around Ptr.
 <p id="LastError">The built-in variable <strong>A_LastError</strong> contains the result of the operating system's GetLastError() function, which is called immediately after the function is called (this has no measurable impact on performance). A_LastError is a number between 0 and 4294967295 (always formatted as decimal, not hexadecimal). Like <a href="../misc/ErrorLevel.htm">ErrorLevel</a>, A_LastError is a per-thread setting; that is, interruptions by other <a href="../misc/Threads.htm">threads</a> cannot change it. However, A_LastError is also set by <a href="Run.htm#LastError">Run/RunWait</a>.</p>
 
 <h2 id="load">Performance</h2>
-<p>When making repeated calls to a DLL, performance can be dramatically improved by loading it explicitly (<em>this is not necessary for a <a href="#std">standard DLL</a> such as User32 because it is always resident</em>). This practice avoids the need for DllCall to internally call LoadLibrary and FreeLibrary each time. For example:</p>
+<p>When making repeated calls to a DLL, performance can be dramatically improved by loading it explicitly (<em>this is not necessary for a <a href="#std">standard DLL</a> such as User32 because it is always resident</em>). This practice avoids the need for DllCall to internally call LoadLibrary and FreeLibrary each time. Por ejemplo:</p>
 <pre>hModule := DllCall("<strong>LoadLibrary</strong>", "Str", "MyFunctions.dll", "Ptr")  <em>; Avoids the need for DllCall() in the loop to load the library.</em>
 Loop, C:\My Documents\*.*, , 1
     result := DllCall("MyFunctions\BackupFile", "Str", A_LoopFileFullPath)
 DllCall("<strong>FreeLibrary</strong>", "Ptr", hModule)  <em>; To conserve memory, the DLL may be unloaded after using it.</em></pre>
-<p><span class="ver">[v1.0.46.08+]</span>: Even faster performance can be achieved by looking up the function's address beforehand. For example:</p>
+<p><span class="ver">[v1.0.46.08+]</span>: Even faster performance can be achieved by looking up the function's address beforehand. Por ejemplo:</p>
 <pre><em>; In the following example, if the DLL isn't yet loaded, use LoadLibrary in place of GetModuleHandle.</em>
 <strong>MulDivProc</strong> := DllCall("GetProcAddress", "Ptr", DllCall("GetModuleHandle", "Str", "<strong>kernel32</strong>", "Ptr"), "AStr", "<strong>MulDiv</strong>", "Ptr")
 Loop 500
@@ -161,12 +161,11 @@ result := DllCall("CharLower", "<strong><u>Str</u></strong>", DllCall("CharUpper
 <h2 id="COM">Component Object Model (COM)</h2>
 <p>COM objects which are accessible to VBScript and similar languages are typically also accessible to AutoHotkey via <a href="ComObjCreate.htm">ComObjCreate()</a>, <a href="ComObjGet.htm">ComObjGet()</a> or <a href="ComObjActive.htm">ComObjActive()</a> and the built-in <a href="../Objects.htm#Usage_Objects">object syntax</a>.</p>
 <p>COM objects which don't support <a href="http://msdn.microsoft.com/en-us/library/ms221608.aspx">IDispatch</a> can be used with DllCall by retrieving the address of a function from the virtual function table of the object's interface. For more details, see <a href="#ExTaskbar">the example</a> further below.</p>
-<p>Much of the .NET Framework is also accessible via COM and DllCall. See <a href="https://www.autohotkey.com/forum/topic26191.html">.NET Framework Interop</a>.
-</p>
+<p>Much of the .NET Framework is also accessible via COM and DllCall. See <a href="https://www.autohotkey.com/forum/topic26191.html">.NET Framework Interop</a>.</p>
 
 <h2 id="Related">Related</h2>
 <p><a href="../Compat.htm#DllCall">Script Compatibility</a>, <a href="PostMessage.htm">PostMessage</a>, <a href="OnMessage.htm">OnMessage()</a>, <a href="RegisterCallback.htm">RegisterCallback()</a>, <a href="Run.htm">Run</a>, <a href="VarSetCapacity.htm">VarSetCapacity()</a>, <a href="../Functions.htm">Functions</a>, <a href="SysGet.htm">SysGet</a>, <a href="http://msdn.microsoft.com/library/">MSDN Library</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExMessageBox">
 <p><a class="ex_number" href="#ExMessageBox"></a> Calls the Windows API function "MessageBox" and reports which button the user presses.</p>
 <pre>WhichButton := DllCall("MessageBox", "Int", 0, "Str", "Press Yes or No", "Str", "Title of box", "Int", 4)
@@ -376,10 +375,8 @@ SetSystemTime(YYYYMMDDHHMISS)
 }</pre>
 <p>More structure examples:</p>
 <ul>
-  <li>See the <a href="../scripts/index.htm#WinLIRC">WinLIRC client script</a> for a demonstration of how to use DllCall() to make a network connection
-  to a TCP/IP server and receive data from it.</li>
-  <li>The operating system offers standard dialog boxes that prompt the user to pick a font and/or color, or an icon.
-  These dialogs use structures and are demonstrated at <a href="https://github.com/majkinetor/mm-autohotkey/tree/master/Dlg">GitHub</a>.</li>
+  <li>See the <a href="../scripts/index.htm#WinLIRC">WinLIRC client script</a> for a demonstration of how to use DllCall() to make a network connection to a TCP/IP server and receive data from it.</li>
+  <li>The operating system offers standard dialog boxes that prompt the user to pick a font and/or color, or an icon. These dialogs use structures and are demonstrated at <a href="https://github.com/majkinetor/mm-autohotkey/tree/master/Dlg">GitHub</a>.</li>
 </ul>
 </div>
 

@@ -27,10 +27,10 @@
   <dt>Mask</dt>
   <dd><p>A bitmask of flags to change.</p></dd>
 
-  <dt>Flags</dt>
-  <dd><p>All of <i>ComObject</i>'s flags (after applying <i>NewFlags</i>, if specified).</p></dd>
-
 </dl>
+
+<h2 id="Return_Value">Return Value</h2>
+<p>This function returns the current flags of the specified COM object (after applying <var>NewFlags</var>, if specified).</p>
 
 <h2 id="Flags">Flags</h2>
 <table class="info">
@@ -50,7 +50,7 @@
 <h2 id="Related">Related</h2>
 <p><a href="ComObjActive.htm">ComObjActive()</a>, <a href="ComObjArray.htm">ComObjArray()</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExCheck">
 <p><a class="ex_number" href="#ExCheck"></a> Checks for the presence of the F_OWNVALUE flag.</p>
 <pre>arr := ComObjArray(0xC, 1)

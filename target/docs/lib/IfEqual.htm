@@ -3,7 +3,7 @@
 <head>
 <title>IfEqual / IfLess / IfGreater - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The IfEqual, IfNotEqual, IfLess, IfLessOrEqual, IfGreater and IfGreaterOrEqual statements specify statements to execute if the comparison evaluates to true." />
-<meta name="ahk:equiv-v2" content="commands/If.htm" />
+<meta name="ahk:equiv-v2" content="lib/If.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -33,7 +33,7 @@
 
 <h2 id="Remarks">Remarks</h2>
 <p>If both <em>Var</em> and <em>Value</em> are purely numeric, they will be compared as numbers rather than as strings. Otherwise, they will be compared alphabetically as strings (that is, alphabetical order will determine whether <em>Var</em> is greater, equal, or less than <em>Value</em>).</p>
-<p>If an <em>If</em> owns more than one line, those lines must be enclosed in braces (to create a <a href="Block.htm">block</a>). However, if only one line belongs to an <em>If</em>, the braces are optional. For example:</p>
+<p>If an <em>If</em> owns more than one line, those lines must be enclosed in braces (to create a <a href="Block.htm">block</a>). However, if only one line belongs to an <em>If</em>, the braces are optional. Por ejemplo:</p>
 <pre>if count &lt;= 0
 {
     WinClose Untitled - Notepad
@@ -51,7 +51,7 @@ IfGreater, x, 1, x += 2</pre>
 <h2 id="Related">Related</h2>
 <p><a href="IfExpression.htm">If (expression)</a>, <a href="StringCaseSense.htm">StringCaseSense</a>, <a href="SetExpression.htm">Assign expression (:=)</a>, <a href="IfIn.htm">if var in/contains</a>, <a href="IfBetween.htm">if var between</a>, <a href="IfInString.htm">IfInString</a>, <a href="Block.htm">Blocks</a>, <a href="Else.htm">Else</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExOne">
 <p><a class="ex_number" href="#ExOne"></a> If <var>counter</var> is greater than or equal to 1, sleep for 10 ms.</p>
 <pre>if counter &gt;= 1

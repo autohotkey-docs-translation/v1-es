@@ -3,7 +3,7 @@
 <head>
 <title>RegisterCallback() - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The RegisterCallback function creates a machine-code address that when called, redirects the call to a function in the script." />
-<meta name="ahk:equiv-v2" content="commands/CallbackCreate.htm" />
+<meta name="ahk:equiv-v2" content="lib/CallbackCreate.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -25,7 +25,7 @@
   <dt>FunctionName</dt>
   <dd>
       <p>A <a href="../Functions.htm">function</a>'s name, which must be enclosed in quotes if it is a literal string. This function is called automatically whenever <em>Address</em> is called. The function also receives the parameters that were passed to <em>Address</em>.</p>
-      <p><span class="ver">[v1.1.06+]:</span> A <a href="../objects/Func.htm">function reference</a> can be passed instead of a function name.</p>
+      <p><span class="ver">[v1.1.06+]:</span> A <a href="Func.htm">function reference</a> can be passed instead of a function name.</p>
     </dd>
 
   <dt>Options</dt>
@@ -69,7 +69,7 @@ wParam := wParam &lt;&lt; 32 &gt;&gt; 32</pre>
 <pre>MyString := StrGet(MyParameter)  <em>; Requires <span class="ver">[AHK_L 46+]</span></em></pre>
 <p>If an incoming parameter is the address of a structure, the individual members may be extracted by following the steps at <a href="DllCall.htm#struct">DllCall structures</a>.</p>
 
-<p id="Indirect"><strong>Receiving parameters by address</strong> <span class="ver">[AHK_L 60+]</span>: If the function is declared as <a href="../Functions.htm#Variadic">variadic</a>, its final parameter is assigned the <i>address</i> of the first callback parameter which was not assigned to a script parameter. For example:</p>
+<p id="Indirect"><strong>Receiving parameters by address</strong> <span class="ver">[AHK_L 60+]</span>: If the function is declared as <a href="../Functions.htm#Variadic">variadic</a>, its final parameter is assigned the <i>address</i> of the first callback parameter which was not assigned to a script parameter. Por ejemplo:</p>
 <pre>
 callback := RegisterCallback("TheFunc", "F", 3)  <em>; Parameter list size must be specified.</em>
 TheFunc("TheFunc was called directly.")          <em>; Call TheFunc directly.</em>
@@ -98,7 +98,7 @@ TheFunc(params*) {
 <h2 id="Related">Related</h2>
 <p><a href="DllCall.htm">DllCall()</a>, <a href="OnMessage.htm">OnMessage()</a>, <a href="OnExit.htm#function">OnExit()</a>, <a href="OnExit.htm#command">OnExit</a>, <a href="OnClipboardChange.htm#function">OnClipboardChange()</a>, <a href="OnClipboardChange.htm#label">OnClipboardChange Label</a>, <a href="Sort.htm#callback">Sort's callback</a>, <a href="Critical.htm">Critical</a>, <a href="PostMessage.htm">Post/SendMessage</a>, <a href="../Functions.htm">Functions</a>, <a href="../misc/SendMessageList.htm">List of Windows Messages</a>, <a href="../misc/Threads.htm">Threads</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExWinList">
 <p><a class="ex_number" href="#ExWinList"></a> Displays a summary of all top-level windows.</p>
 <pre><em>; For performance and memory conservation, call RegisterCallback() only once for a given callback:</em>

@@ -3,7 +3,7 @@
 <head>
 <title>WinGet - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The WinGet command retrieves the specified window's unique ID, process ID, process name, a list of its controls, or a list of windows." />
-<meta name="ahk:equiv-v2" content="commands/Win.htm" />
+<meta name="ahk:equiv-v2" content="lib/Win.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -19,11 +19,10 @@
 <h2 id="Parameters">Parameters</h2>
 <dl>
   <dt>OutputVar</dt>
-  <dd>The name of the variable in which to store the result of <em>SubCommand</em>.</dd>
+  <dd>The name of the output variable in which to store the result of <em>SubCommand</em>.</dd>
 
   <dt>SubCommand</dt>
-  <dd>The operation to perform, which if blank defaults to the <a href="#ID">ID</a> sub-command. See <a href="#SubCommands">Sub-commands</a>.
-</dd>
+  <dd>The operation to perform, which if blank defaults to the <a href="#ID">ID</a> sub-command. See <a href="#SubCommands">Sub-commands</a>.</dd>
 
   <dt>WinTitle</dt>
   <dd>A window title or other criteria identifying the target window. See <a href="../misc/WinTitle.htm">WinTitle</a>.</dd>
@@ -118,14 +117,14 @@
 <h3 id="Transparent">Transparent</h3>
 <p>Retrieves the degree of transparency of a window.</p>
 <pre class="Syntax"><span class="func">WinGet</span>, OutputVar, Transparent <span class="optional">, WinTitle, WinText, ExcludeTitle, ExcludeText</span></pre>
-<p>See <a href="WinSet.htm">WinSet</a> for how to set transparency. <em>OutputVar</em> is made blank if: 1) the OS is older than Windows XP; 2) there are no matching windows; 3) the window has no transparency level; or 4) other conditions (caused by OS behavior) such as the window having been minimized, restored, and/or resized since it was made transparent. Otherwise, a number between 0 and 255 is stored, where 0 indicates an invisible window and 255 indicates an opaque window. For example:</p>
+<p>See <a href="WinSet.htm">WinSet</a> for how to set transparency. <em>OutputVar</em> is made blank if: 1) the OS is older than Windows XP; 2) there are no matching windows; 3) the window has no transparency level; or 4) other conditions (caused by OS behavior) such as the window having been minimized, restored, and/or resized since it was made transparent. Otherwise, a number between 0 and 255 is stored, where 0 indicates an invisible window and 255 indicates an opaque window. Por ejemplo:</p>
 <pre>MouseGetPos,,, MouseWin
 WinGet, Transparent, Transparent, ahk_id %MouseWin%  <em>; Transparency of window under the mouse cursor.</em></pre>
 
 <h3 id="TransColor">TransColor</h3>
 <p>Retrieves the color that is marked transparent in a window.</p>
 <pre class="Syntax"><span class="func">WinGet</span>, OutputVar, TransColor <span class="optional">, WinTitle, WinText, ExcludeTitle, ExcludeText</span></pre>
-<p>See <a href="WinSet.htm#TransColor">WinSet</a> for how to set the TransColor. <em>OutputVar</em> is made blank if: 1) the OS is older than Windows XP; 2) there are no matching windows; 3) the window has no transparent color; or 4) other conditions (caused by OS behavior) such as the window having been minimized, restored, and/or resized since it was made transparent. Otherwise, a six-digit hexadecimal RGB color is stored, e.g. 0x00CC99. For example:</p>
+<p>See <a href="WinSet.htm#TransColor">WinSet</a> for how to set the TransColor. <em>OutputVar</em> is made blank if: 1) the OS is older than Windows XP; 2) there are no matching windows; 3) the window has no transparent color; or 4) other conditions (caused by OS behavior) such as the window having been minimized, restored, and/or resized since it was made transparent. Otherwise, a six-digit hexadecimal RGB color is stored, e.g. 0x00CC99. Por ejemplo:</p>
 <pre>MouseGetPos,,, MouseWin
 WinGet, TransColor, TransColor, ahk_id %MouseWin%  <em>; TransColor of the window under the mouse cursor.</em></pre>
 
@@ -157,7 +156,7 @@ if (ExStyle &amp; 0x8)  <em>; 0x8 is WS_EX_TOPMOST.</em>
 <h2 id="Related">Related</h2>
 <p><a href="WinGetClass.htm">WinGetClass</a>, <a href="Process.htm">Process</a>, <a href="WinGetTitle.htm">WinGetTitle</a>, <a href="MouseGetPos.htm">MouseGetPos</a>, <a href="ControlGet.htm">ControlGet</a>, <a href="ControlFocus.htm">ControlFocus</a>, <a href="GroupAdd.htm">GroupAdd</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExID">
 <p><a class="ex_number" href="#ExID"></a> Maximizes the active window and reports its unique ID.</p>

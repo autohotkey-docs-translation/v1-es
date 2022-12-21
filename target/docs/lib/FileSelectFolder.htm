@@ -3,7 +3,7 @@
 <head>
 <title>FileSelectFolder - Syntax &amp; Usage | AutoHotkey</title>
 <meta name="description" content="The FileSelectFolder command displays a standard dialog that allows the user to select a folder." />
-<meta name="ahk:equiv-v2" content="commands/DirSelect.htm" />
+<meta name="ahk:equiv-v2" content="lib/DirSelect.htm" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="../static/theme.css" rel="stylesheet" type="text/css" />
@@ -20,7 +20,7 @@
 <dl>
 
   <dt>OutputVar</dt>
-  <dd><p>The name of the variable in which to store the user's selected folder. This will be made blank if the user cancels the dialog (i.e. does not wish to select a folder). If the user selects a root directory (such as C:\), <em>OutputVar</em> will contain a trailing backslash. If this is undesirable, remove it as follows:</p>
+  <dd><p>The name of the output variable in which to store the user's selected folder. This will be made blank if the user cancels the dialog (i.e. does not wish to select a folder). If the user selects a root directory (such as C:\), <em>OutputVar</em> will contain a trailing backslash. If this is undesirable, remove it as follows:</p>
       <pre>FileSelectFolder, Folder
 Folder := RegExReplace(Folder, "\\$")  <em>; Removes the trailing backslash, if present.</em></pre></dd>
 
@@ -59,7 +59,7 @@ Thread, NoTimers, false</pre>
 <h2 id="Related">Related</h2>
 <p><a href="FileSelectFile.htm">FileSelectFile</a>, <a href="MsgBox.htm">MsgBox</a>, <a href="InputBox.htm">InputBox</a>, <a href="ToolTip.htm">ToolTip</a>, <a href="Gui.htm">GUI</a>, <a href="../misc/CLSID-List.htm">CLSID List</a>, <a href="FileCopyDir.htm">FileCopyDir</a>, <a href="FileMoveDir.htm">FileMoveDir</a>, <a href="SplitPath.htm">SplitPath</a></p>
 <p>Also, the operating system offers standard dialog boxes that prompt the user to pick a font, color, or icon. These dialogs can be displayed via <a href="DllCall.htm">DllCall()</a> as demonstrated at <a href="https://github.com/majkinetor/mm-autohotkey/tree/master/Dlg">GitHub</a>.</p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Allows the user to select a folder and provides both an edit field and a "make new folder" button.</p>
 <pre>FileSelectFolder, OutputVar, , 3

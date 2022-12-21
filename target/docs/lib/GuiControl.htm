@@ -120,7 +120,7 @@ GuiControl, Move, MyEdit, % "x" VarX+10 "y" VarY+5 "w" VarW*2 "h" VarH*1.5 <em>;
 <p>Sets the selection in a ListBox, DropDownList, ComboBox, or Tab control to be the Nth entry.</p>
 <pre class="Syntax"><span class="func">GuiControl</span>, Choose, ControlID, N</pre>
 <p><em>N</em> should be 1 for the first entry, 2 for the second, etc. If <em>N</em> is not an integer, the <a href="#ChooseString">ChooseString</a> sub-command (below) will be used instead. <span class="ver">[v1.1.06+]:</span> If <em>N</em> is zero, the ListBox, DropDownList or ComboBox's current selection is removed.</p>
-<p>Unlike <a href="Control.htm">Control Choose</a>, this sub-command will not trigger any <a href="Gui.htm#label">g-label</a> associated with the control unless <em>N</em> is preceded by a pipe character (even then, the g-label is triggered only when the new selection is different than the old one, at least for <a href="GuiControls.htm#Tab">Tab controls</a>). For example: <code>GuiControl, Choose, MyListBox, <strong>|3</strong></code>.</p>
+<p>Unlike <a href="Control.htm">Control Choose</a>, this sub-command will not trigger any <a href="Gui.htm#label">g-label</a> associated with the control unless <em>N</em> is preceded by a pipe character (even then, the g-label is triggered only when the new selection is different than the old one, at least for <a href="GuiControls.htm#Tab">Tab controls</a>). Por ejemplo: <code>GuiControl, Choose, MyListBox, <strong>|3</strong></code>.</p>
 <p>To additionally cause a finishing event to occur (a double-click in the case of ListBox), include two leading pipes instead of one (this is not supported for Tab controls).</p>
 <p>To select or deselect <strong>all</strong> items in a <a href="GuiControls.htm#ListBoxMulti">multi-select ListBox</a>, follow this example:</p>
 <pre>Gui +LastFound  <em>; Avoids the need to specify WinTitle below.</em>
@@ -136,7 +136,7 @@ GuiControl, Choose, ListBox1, 0  <em>; Deselect all items <span class="ver">[req
 <h3 id="Font">Font</h3>
 <p>Changes the control's font to the typeface, size, color, and style currently in effect for its window.</p>
 <pre class="Syntax"><span class="func">GuiControl</span>, Font, ControlID</pre>
-<p>For example:</p>
+<p>Por ejemplo:</p>
 <pre>Gui, Font, s18 cRed Bold, Verdana  <em>; If desired, use a line like this to set a <a href="Gui.htm#Font">new default font</a> for the window.</em>
 GuiControl, Font, MyEdit  <em>; Put the above font into effect for a control.</em></pre>
 
@@ -148,7 +148,7 @@ GuiControl, Font, MyEdit  <em>; Put the above font into effect for a control.</e
 <p>In the next example, the OK button is made the new default button:</p>
 <pre>GuiControl, +Default, OK</pre>
 <p>Although <a href="../misc/Styles.htm">styles</a> and extended styles are also recognized, some of them cannot be applied or removed after a control has been created. ErrorLevel is set to 0 if at least one of the specified changes was successfully applied. Otherwise, it is set to 1 to indicate that none of the changes could be applied. Even if a change is successfully applied, the control might choose to ignore it.</p>
-<p id="Functor"><span class="ver">[v1.1.20+]:</span> To set a <a href="../objects/Functor.htm">function object</a> for handling <a href="Gui.htm#label">the control's events</a>, <em>Value</em> must be a single variable reference, as in either of the following examples. Other expressions which return objects are currently unsupported.</p>
+<p id="Functor"><span class="ver">[v1.1.20+]:</span> To set a <a href="../misc/Functor.htm">function object</a> for handling <a href="Gui.htm#label">the control's events</a>, <em>Value</em> must be a single variable reference, as in either of the following examples. Other expressions which return objects are currently unsupported.</p>
 <pre>GuiControl +g, <i>ControlID</i>, %FuncObj%
 GuiControl +g, <i>ControlID</i>, % FuncObj</pre>
 
@@ -167,7 +167,7 @@ GuiControl, MyGui:, MyListBox, Item1|Item2</pre>
 <h2 id="Related">Related</h2>
 <p><a href="Gui.htm">Gui</a>, <a href="GuiControlGet.htm">GuiControlGet</a>, <a href="Control.htm">Control</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExReplaceList">
 <p><a class="ex_number" href="#ExReplaceList"></a> Replaces the current list with a new list.</p>

@@ -35,7 +35,7 @@
 
   <dt>Label</dt>
   <dd><p>The name of the <a href="../misc/Labels.htm">label</a> whose contents will be executed (as a new <a href="../misc/Threads.htm">thread</a>) when the hotkey is pressed. Both normal labels and <a href="../Hotkeys.htm">hotkey</a>/<a href="../Hotstrings.htm">hotstring</a> labels can be used, but if the script contains multiple labels with the same name, only the first can be used. The trailing colon(s) should not be included. If <em>Label</em> is dynamic (e.g. %VarContainingLabelName%), <a href="IsLabel.htm">IsLabel(VarContainingLabelName)</a> may be called beforehand to verify that the label exists.</p>
-  <p id="Functor"><span class="ver">[v1.1.20+]:</span> If not a valid label name, this parameter can be the name of a function, or a single variable reference containing a <a href="../objects/Functor.htm">function object</a>. For example, <code>Hotkey #z, %FuncObj%, On</code> or <code>Hotkey #z, % FuncObj, On</code>. Other expressions which return objects are currently unsupported. When the hotkey executes, the function is called without parameters. Hotkeys can also be <a href="../Hotkeys.htm#Function">defined as functions</a> without the Hotkey command.</p>
+  <p id="Functor"><span class="ver">[v1.1.20+]:</span> If not a valid label name, this parameter can be the name of a function, or a single variable reference containing a <a href="../misc/Functor.htm">function object</a>. For example, <code>Hotkey #z, %FuncObj%, On</code> or <code>Hotkey #z, % FuncObj, On</code>. Other expressions which return objects are currently unsupported. When the hotkey executes, the function is called without parameters. Hotkeys can also be <a href="../Hotkeys.htm#Function">defined as functions</a> without the Hotkey command.</p>
       <p>This parameter can be left blank if <em>KeyName</em> already exists as a hotkey, in which case its label will not be changed. This is useful to change only the hotkey's <em>Options</em>.</p>
       <p class="note"><strong>Note</strong>: If the label or function is specified but the hotkey is disabled from a previous use of this command, the hotkey will remain disabled. To prevent this, include the word ON in <em>Options</em>.</p>
       <p>This parameter can also be one of the following special values:</p>
@@ -47,14 +47,14 @@
       </dd>
 
   <dt>Options</dt>
-  <dd><p>A string of zero or more of the following letters with optional spaces in between. For example: <code>UseErrorLevel B0</code>.</p>
+  <dd><p>A string of zero or more of the following letters with optional spaces in between. Por ejemplo: <code>UseErrorLevel B0</code>.</p>
       <p id="UseErrorLevel"><strong>UseErrorLevel</strong>: If the command encounters a problem, this option skips the warning dialog, sets <a href="../misc/ErrorLevel.htm">ErrorLevel</a> to one of the codes from the table <a href="#ErrorLevel">below</a>, then allows the <a href="../misc/Threads.htm">current thread</a> to continue.</p>
       <p><strong>On</strong>: Enables the hotkey if it is currently disabled.</p>
       <p><strong>Off</strong>: Disables the hotkey if it is currently enabled. This is typically used to create a hotkey in an initially-disabled state.</p>
       <p><strong>B</strong> or <strong>B0</strong>: Specify the letter B to buffer the hotkey as described in <a href="_MaxThreadsBuffer.htm">#MaxThreadsBuffer</a>. Specify B0 (B with the number 0) to disable this type of buffering.</p>
       <p><strong>Pn</strong>: Specify the letter P followed by the hotkey's <a href="../misc/Threads.htm">thread priority</a>. If the P option is omitted when creating a hotkey, 0 will be used.</p>
-      <p><strong>Tn</strong>: Specify the letter T followed by a the number of threads to allow for this hotkey as described in <a href="_MaxThreadsPerHotkey.htm">#MaxThreadsPerHotkey</a>. For example: <code>T5</code>.</p>
-      <p><strong>In</strong> (InputLevel) <span class="ver">[v1.1.23+]</span>: Specify the letter I (or i) followed by the hotkey's <a href="_InputLevel.htm">input level</a>. For example: <code>I1</code>.</p>
+      <p><strong>Tn</strong>: Specify the letter T followed by a the number of threads to allow for this hotkey as described in <a href="_MaxThreadsPerHotkey.htm">#MaxThreadsPerHotkey</a>. Por ejemplo: <code>T5</code>.</p>
+      <p><strong>In</strong> (InputLevel) <span class="ver">[v1.1.23+]</span>: Specify the letter I (or i) followed by the hotkey's <a href="_InputLevel.htm">input level</a>. Por ejemplo: <code>I1</code>.</p>
       <p>If any of the option letters are omitted and the hotkey already exists, those options will not be changed. But if the hotkey does not yet exist -- that is, it is about to be created by this command -- the options will default to those most recently in effect. For example, the instance of <a href="_MaxThreadsBuffer.htm">#MaxThreadsBuffer</a> that occurs closest to the bottom of the script will be used. If <a href="_MaxThreadsBuffer.htm">#MaxThreadsBuffer</a> does not appear in the script, its default setting (OFF in this case) will be used. This behavior also applies to <a href="_IfWinActive.htm">#IfWin</a>: the bottommost occurrence applies to newly created hotkeys unless "<a href="#IfWin">Hotkey IfWin</a>" has executed since the script started.</p>
       </dd>
 
@@ -80,7 +80,7 @@
   
   <dt id="IfFn">If, % FunctionObject</dt>
   <dd>
-    <p><span class="ver">[v1.1.25+]:</span> Associates subsequently-created hotkeys with a given <a href="../objects/Functor.htm">function object</a>. Such hotkeys will only execute if calling the given function object yields a non-zero number. This is like <code>Hotkey, If, Expression</code>, except that each hotkey can have many <a href="#variant">variants</a> (one per object). <em>FunctionObject</em> must be a single variable (not an expression) containing an object with a <em>call</em> method. The function or <em>call</em> method can accept one parameter, the <a href="../Variables.htm#ThisHotkey">name</a> of the hotkey.</p>
+    <p><span class="ver">[v1.1.25+]:</span> Associates subsequently-created hotkeys with a given <a href="../misc/Functor.htm">function object</a>. Such hotkeys will only execute if calling the given function object yields a non-zero number. This is like <code>Hotkey, If, Expression</code>, except that each hotkey can have many <a href="#variant">variants</a> (one per object). <em>FunctionObject</em> must be a single variable (not an expression) containing an object with a <em>call</em> method. The function or <em>call</em> method can accept one parameter, the <a href="../Variables.htm#ThisHotkey">name</a> of the hotkey.</p>
     <p>Once passed to the Hotkey command, the object will never be deleted (but memory will be reclaimed by the OS when the process exits).</p>
     <p>The <a href="#ExampleIfFn">"three-key combination" example</a> below uses this sub-command.</p>
   </dd>
@@ -110,7 +110,7 @@
   </tr>
   <tr>
     <td>4</td>
-    <td>The <em>KeyName</em> parameter is not suitable for use with the <a href="../Hotkeys.htm#alttab">AltTab or ShiftAltTab</a> actions. A combination of (at most) two keys is required. For example: <code>RControl &amp; RShift::AltTab</code>.</td>
+    <td>The <em>KeyName</em> parameter is not suitable for use with the <a href="../Hotkeys.htm#alttab">AltTab or ShiftAltTab</a> actions. A combination of (at most) two keys is required. Por ejemplo: <code>RControl &amp; RShift::AltTab</code>.</td>
   </tr>
   <tr>
     <td>5</td>
@@ -129,7 +129,7 @@
     <td>Out of memory. This is very rare and usually happens only when the operating system has become unstable.</td>
   </tr>
 </table>
-<p>Tip: The UseErrorLevel option can be used to test for the existence of a hotkey variant. For example:</p>
+<p>Tip: The UseErrorLevel option can be used to test for the existence of a hotkey variant. Por ejemplo:</p>
 <pre>Hotkey, ^!p,, UseErrorLevel
 if ErrorLevel in 5,6
     MsgBox The hotkey does not exist or it has no variant for the current IfWin criteria.</pre>
@@ -145,16 +145,16 @@ if ErrorLevel in 5,6
 <p>Once a script has at least one hotkey, it becomes persistent, meaning that <a href="ExitApp.htm">ExitApp</a> rather than Exit should be used to terminate it. Hotkey scripts are also automatically <a href="_SingleInstance.htm">#SingleInstance</a> unless <code>#SingleInstance Off</code> has been specified.</p>
 
 <h2 id="IfWin">Remarks About <em>Hotkey, If</em></h2>
-<p>The "Hotkey If" commands allow context-sensitive <a href="../Hotkeys.htm">hotkeys</a> to be created and modified while the script is running (by contrast, the <a href="_If.htm">#If</a> and <a href="_IfWinActive.htm">#IfWinActive/Exist</a> directives are positional and take effect before the script begins executing). For example:</p>
+<p>The "Hotkey If" commands allow context-sensitive <a href="../Hotkeys.htm">hotkeys</a> to be created and modified while the script is running (by contrast, the <a href="_If.htm">#If</a> and <a href="_IfWinActive.htm">#IfWinActive/Exist</a> directives are positional and take effect before the script begins executing). Por ejemplo:</p>
 <pre>Hotkey, IfWinActive, ahk_class Notepad
 Hotkey, ^!e, MyLabel  <em>; Creates a hotkey that works only in Notepad.</em></pre>
 <p>Using "Hotkey If" puts context sensitivity into effect for all subsequently created or modified <a href="../Hotkeys.htm">hotkeys</a>. In addition, each If sub-command is mutually exclusive; that is, only the most recent one will be in effect.</p>
-<p>To turn off context sensitivity (that is, to make subsequently-created hotkeys work in all windows), specify any If sub-command but omit the parameters. For example: <code>Hotkey, If</code> or <code>Hotkey, IfWinActive</code>.</p>
+<p>To turn off context sensitivity (that is, to make subsequently-created hotkeys work in all windows), specify any If sub-command but omit the parameters. Por ejemplo: <code>Hotkey, If</code> or <code>Hotkey, IfWinActive</code>.</p>
 <p>If "Hotkey If" is never used by a script, the bottommost use of any <a href="_If.htm">#If</a> or <a href="_IfWinActive.htm">#IfWin</a> directive (if any) will be in effect for the Hotkey command.</p>
 <p>When a mouse or keyboard hotkey is disabled via an If sub-command or directive, it performs its native function; that is, it passes through to the active window as though there is no such hotkey. However, joystick hotkeys always pass through, whether they are disabled or not.</p>
 
 <h2 id="variant">Variant (Duplicate) Hotkeys</h2>
-<p>A particular hotkey can be created more than once if each definition has different IfWin criteria. These are known as <em>hotkey variants</em>. For example:</p>
+<p>A particular hotkey can be created more than once if each definition has different IfWin criteria. These are known as <em>hotkey variants</em>. Por ejemplo:</p>
 <pre>Hotkey, IfWinActive, ahk_class Notepad
 Hotkey, ^!c, MyLabelForNotepad
 Hotkey, IfWinActive, ahk_class WordPadClass
@@ -166,7 +166,7 @@ Hotkey, ^!c, MyLabelForAllOtherWindows</pre>
 <p>For more information about IfWin hotkeys, see <a href="_IfWinActive.htm#gen">#IfWin's General Remarks</a>.</p>
 <h2 id="Related">Related</h2>
 <p><a href="../Hotkeys.htm#Symbols">Hotkey Symbols</a>, <a href="_IfWinActive.htm">#IfWinActive/Exist</a>, <a href="_MaxThreadsBuffer.htm">#MaxThreadsBuffer</a>, <a href="_MaxThreadsPerHotkey.htm">#MaxThreadsPerHotkey</a>, <a href="Suspend.htm">Suspend</a>, <a href="IsLabel.htm">IsLabel()</a>, <a href="../misc/Threads.htm">Threads</a>, <a href="Thread.htm">Thread</a>, <a href="Critical.htm">Critical</a>, <a href="Gosub.htm">Gosub</a>, <a href="Return.htm">Return</a>, <a href="Menu.htm">Menu</a>, <a href="SetTimer.htm">SetTimer</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Creates a Ctrl-Alt-Z hotkey.</p>
 <pre>Hotkey, ^!z, MyLabel

@@ -36,7 +36,7 @@
 
 </dl>
 <h2 id="Remarks">Remarks</h2>
-<p>To have more control over layout and font name/color/size, use the <a href="Progress.htm">Progress</a> command with the <code>zh0</code> option, which omits the bar and displays only text. For example: <code>Progress, zh0 fs18, Some 18-point text to display</code>.</p>
+<p>To have more control over layout and font name/color/size, use the <a href="Progress.htm">Progress</a> command with the <code>zh0</code> option, which omits the bar and displays only text. Por ejemplo: <code>Progress, zh0 fs18, Some 18-point text to display</code>.</p>
 <p>Use the SplashTextOff command to remove an existing splash window.</p>
 <p>The splash window is "always on top", meaning that it stays above all other normal windows. To change this, use <code><a href="WinSet.htm">WinSet</a>, AlwaysOnTop, Off, &lt;insert title of splash window&gt;</code>. <a href="WinSet.htm">WinSet</a> can also make the splash window transparent.</p>
 <p><a href="WinMove.htm">WinMove</a> can be used to reposition and resize the SplashText window after it has been displayed with this command.</p>
@@ -46,7 +46,7 @@
 <a href="ControlSetText.htm">ControlSetText</a>, Static1, NewText, &lt;insert title of splash window&gt;</pre>
 <h2 id="Related">Related</h2>
 <p><a href="Progress.htm">Progress</a>, <a href="Progress.htm">SplashImage</a>, <a href="ToolTip.htm">ToolTip</a>, <a href="MsgBox.htm">MsgBox</a>, <a href="InputBox.htm">InputBox</a>, <a href="FileSelectFile.htm">FileSelectFile</a>, <a href="FileSelectFolder.htm">FileSelectFolder</a>, <a href="WinMove.htm">WinMove</a>, <a href="WinSet.htm">WinSet</a></p>
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExBasic">
 <p><a class="ex_number" href="#ExBasic"></a> Creates a fixed-size popup window that shows the contents of the clipboard and moves it to the upper-left corner of the screen.</p>
 <pre>SplashTextOn, 400, 300, Clipboard, The clipboard contains:`n%Clipboard%

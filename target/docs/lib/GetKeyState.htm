@@ -23,7 +23,7 @@ KeyIsDown := <span class="func">GetKeyState</span>(KeyName <span class="optional
 
   <dt>KeyName</dt>
   <dd><p>This can be just about any single character from the keyboard or one of the key names from the <a href="../KeyList.htm">key list</a>, such as a mouse/joystick button. Examples: B, 5, LWin, RControl, Alt, Enter, Escape, LButton, MButton, Joy1.</p>
-      <p>Alternatively, an explicit virtual key code such as vkFF may be specified. This is useful in the rare case where a key has no name. The virtual key code of such a key can be determined by following the steps at the bottom of the <a href="../KeyList.htm#SpecialKeys">key list page</a>.</p> 
+      <p>Alternatively, an explicit virtual key code such as vkFF may be specified. This is useful in the rare case where a key has no name. The virtual key code of such a key can be determined by following the steps at the bottom of the <a href="../KeyList.htm#SpecialKeys">key list page</a>.</p>
       <p><b>Known limitation:</b> This function cannot differentiate between two keys which share the same virtual key code, such as Left and NumpadLeft.</p></dd>
 
   <dt>Mode</dt>
@@ -50,12 +50,12 @@ KeyIsDown := <span class="func">GetKeyState</span>(KeyName <span class="optional
 <dl>
 
   <dt>OutputVar</dt>
-  <dd><p>The name of the variable in which to store the retrieved key state, which is either D for down or U for up. The variable will be empty (blank) if the state of the key could not be determined. For the joystick's special keys such as axes and POV switch, <a href="#joystick">other values are retrieved</a>.</p>
+  <dd><p>The name of the output variable in which to store the retrieved key state, which is either D for down or U for up. The variable will be empty (blank) if the state of the key could not be determined. For the joystick's special keys such as axes and POV switch, <a href="#joystick">other values are retrieved</a>.</p>
       </dd>
 
   <dt>KeyName</dt>
   <dd><p>This can be just about any single character from the keyboard or one of the key names from the <a href="../KeyList.htm">key list</a>, such as a mouse/joystick button. Examples: B, 5, LWin, RControl, Alt, Enter, Escape, LButton, MButton, Joy1.</p>
-      <p>Alternatively, an explicit virtual key code such as vkFF may be specified. This is useful in the rare case where a key has no name. The virtual key code of such a key can be determined by following the steps at the bottom of the <a href="../KeyList.htm#SpecialKeys">key list page</a>.</p> 
+      <p>Alternatively, an explicit virtual key code such as vkFF may be specified. This is useful in the rare case where a key has no name. The virtual key code of such a key can be determined by following the steps at the bottom of the <a href="../KeyList.htm#SpecialKeys">key list page</a>.</p>
       <p><b>Known limitation:</b> This command cannot differentiate between two keys which share the same virtual key code, such as Left and NumpadLeft.</p></dd>
 
   <dt>Mode</dt>
@@ -86,7 +86,7 @@ KeyIsDown := <span class="func">GetKeyState</span>(KeyName <span class="optional
 <h2 id="Related">Related</h2>
 <p><a href="KeyWait.htm">KeyWait</a>, <a href="../KeyList.htm">Key List</a>, <a href="../misc/RemapJoystick.htm">Joystick remapping</a>, <a href="KeyHistory.htm">KeyHistory</a>, <a href="_InstallKeybdHook.htm">#InstallKeybdHook</a>, <a href="_InstallMouseHook.htm">#InstallMouseHook</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 
 <div class="ex" id="ExCmdVsFn">
 <p><a class="ex_number" href="#ExCmdVsFn"></a> Command vs. function. Although the first code block uses the command and the second one uses the function, these two blocks are functionally identical.</p>

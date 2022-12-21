@@ -20,7 +20,7 @@
 <dl>
 
   <dt>OutputVar</dt>
-  <dd><p>The name of the variable in which to store the retrieved value. If the value cannot be retrieved, the variable is made blank and <a href="../misc/ErrorLevel.htm">ErrorLevel</a> is set to 1.</p></dd>
+  <dd><p>The name of the output variable in which to store the retrieved value. If the value cannot be retrieved, the variable is made blank and <a href="../misc/ErrorLevel.htm">ErrorLevel</a> is set to 1.</p></dd>
 
   <dt>KeyName</dt>
   <dd><p>The full name of the registry key.</p>
@@ -39,7 +39,7 @@
 <dl>
 
   <dt>OutputVar</dt>
-  <dd><p>The name of the variable in which to store the retrieved value. If the value cannot be retrieved, the variable is made blank and <a href="../misc/ErrorLevel.htm">ErrorLevel</a> is set to 1.</p></dd>
+  <dd><p>The name of the output variable in which to store the retrieved value. If the value cannot be retrieved, the variable is made blank and <a href="../misc/ErrorLevel.htm">ErrorLevel</a> is set to 1.</p></dd>
 
   <dt>RootKey</dt>
   <dd><p>Must be either HKEY_LOCAL_MACHINE, HKEY_USERS, HKEY_CURRENT_USER, HKEY_CLASSES_ROOT, or HKEY_CURRENT_CONFIG (or the abbreviations for each of these, such as HKLM). To access a <a href="LoopReg.htm#remote">remote registry</a>, prepend the computer name and a colon (or <span class="ver">[in v1.1.21+]</span> a slash), as in this example: <code>\\workstation01:HKEY_LOCAL_MACHINE</code></p></dd>
@@ -70,7 +70,7 @@
 <h2 id="Related">Related</h2>
 <p><a href="RegDelete.htm">RegDelete</a>, <a href="RegWrite.htm">RegWrite</a>, <a href="LoopReg.htm">Registry-loop</a>, <a href="SetRegView.htm">SetRegView</a>, <a href="IniRead.htm">IniRead</a></p>
 
-<h2 id="Examples">Examples</h2>
+<h2 id="Examples">Ejemplos</h2>
 <div class="ex" id="ExNewVsOld">
 <p><a class="ex_number" href="#ExNewVsOld"></a> New syntax vs. old syntax.</p>
 <p>Despite the different syntax, both examples have the same effect; that is, they read a value from the registry and store it in <var>OutputVar</var>.</p>

@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Abs">Abs()</a></td>
-    <td>Returns the absolute value of <em>Number</em>.</td>
+    <td>Returns the absolute value of the specified number.</td>
   </tr>
   <tr>
     <td><a href="AutoTrim.htm">AutoTrim</a></td>
@@ -48,15 +48,15 @@
   </tr>
   <tr>
     <td><a href="Math.htm#ASin">ASin()</a></td>
-    <td>Returns the arcsine (the number whose sine is <em>Number</em>) in radians.</td>
+    <td>Returns the arcsine (the number whose sine is the specified number) in radians.</td>
   </tr>
   <tr>
     <td><a href="Math.htm#ACos">ACos()</a></td>
-    <td>Returns the arccosine (the number whose cosine is <em>Number</em>) in radians.</td>
+    <td>Returns the arccosine (the number whose cosine is the specified number) in radians.</td>
   </tr>
   <tr>
     <td><a href="Math.htm#ATan">ATan()</a></td>
-    <td>Returns the arctangent (the number whose tangent is <em>Number</em>) in radians.</td>
+    <td>Returns the arctangent (the number whose tangent is the specified number) in radians.</td>
   </tr>
   <tr>
     <td><a href="BlockInput.htm">BlockInput</a></td>
@@ -72,7 +72,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Ceil">Ceil()</a></td>
-    <td>Returns <em>Number</em> rounded up to the nearest integer (without any .00 suffix).</td>
+    <td>Returns the specified number rounded up to the nearest integer (without any .00 suffix).</td>
   </tr>
   <tr>
     <td><a href="Chr.htm">Chr()</a></td>
@@ -192,7 +192,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Cos">Cos()</a></td>
-    <td>Returns the trigonometric cosine of <em>Number</em>.</td>
+    <td>Returns the trigonometric cosine of the specified number.</td>
   </tr>
   <tr>
     <td><a href="Critical.htm">Critical</a></td>
@@ -220,7 +220,7 @@
   </tr>
   <tr>
     <td><a href="DriveSpaceFree.htm">DriveSpaceFree</a></td>
-    <td>Retrieves the free disk space of a drive, in Megabytes.</td>
+    <td>Retrieves the free disk space of the drive which contains the specified path, in megabytes.</td>
   </tr>
   <tr id="E">
     <td><a href="Edit.htm">Edit</a></td>
@@ -384,7 +384,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Floor">Floor()</a></td>
-    <td>Returns <em>Number</em> rounded down to the nearest integer (without any .00 suffix).</td>
+    <td>Returns the specified number rounded down to the nearest integer (without any .00 suffix).</td>
   </tr>
   <tr>
     <td class="larger"><a href="For.htm">For</a></td>
@@ -399,7 +399,7 @@
     <td>Transforms a <a href="FileSetTime.htm#YYYYMMDD">YYYYMMDDHH24MISS</a> timestamp into the specified date/time format.</td>
   </tr>
   <tr>
-    <td><a href="Func.htm">Func()</a></td>
+    <td><a href="Func.htm#Func">Func()</a></td>
     <td>Retrieves a <a href="../Objects.htm#Function_References">reference</a> to a function.</td>
   </tr>
   <tr>
@@ -573,6 +573,10 @@
     <td>Returns a non-zero number if the specified value is an object.</td>
   </tr>
   <tr>
+    <td><a href="IsSet.htm">IsSet()</a></td>
+    <td>Returns a non-zero number if the specified variable has been assigned a value.</td>
+  </tr>
+  <tr>
     <td><a href="KeyHistory.htm">KeyHistory</a></td>
     <td>Displays script info and a history of the most recent keystrokes and mouse clicks.</td>
   </tr>
@@ -598,11 +602,11 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Log">Log()</a></td>
-    <td>Returns the logarithm (base 10) of <em>Number</em>.</td>
+    <td>Returns the logarithm (base 10) of the specified number.</td>
   </tr>
   <tr>
     <td><a href="Math.htm#Ln">Ln()</a></td>
-    <td>Returns the natural logarithm (base e) of <em>Number</em>.</td>
+    <td>Returns the natural logarithm (base e) of the specified number.</td>
   </tr>
   <tr>
     <td class="larger"><a href="Loop.htm">Loop (normal)</a></td>
@@ -660,7 +664,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Mod">Mod()</a></td>
-    <td>Modulo. Returns the remainder when <em>Dividend</em> is divided by <em>Divisor</em>.</td>
+    <td>Modulo. Returns the remainder of the specified dividend divided by the specified divisor.</td>
   </tr>
   <tr>
     <td><a href="MouseClick.htm">MouseClick</a></td>
@@ -696,49 +700,49 @@
   </tr>
   <tr>
     <td><a href="ObjBindMethod.htm">ObjBindMethod()</a></td>
-    <td>Creates a <a href="../objects/Functor.htm#BoundFunc">BoundFunc object</a> which calls a method of a given object.</td>
+    <td>Creates a <a href="../misc/Functor.htm#BoundFunc">BoundFunc object</a> which calls a method of a given object.</td>
   </tr>
   <tr>
     <td>
-      <a href="../objects/Object.htm#Clone">ObjClone()</a><br>
-      <a href="../objects/Object.htm#Count">ObjCount()</a><br>
-      <a href="../objects/Object.htm#Delete">ObjDelete()</a><br>
-      <a href="../objects/Object.htm#GetAddress">ObjGetAddress()</a><br>
-      <a href="../objects/Object.htm#GetCapacity">ObjGetCapacity()</a><br>
-      <a href="../objects/Object.htm#HasKey">ObjHasKey()</a><br>
-      <a href="../objects/Object.htm#Insert">ObjInsert()</a><br>
-      <a href="../objects/Object.htm#InsertAt">ObjInsertAt()</a><br>
-      <a href="../objects/Object.htm#Length">ObjLength()</a><br>
-      <a href="../objects/Object.htm#MinMaxIndex">ObjMaxIndex()</a><br>
-      <a href="../objects/Object.htm#MinMaxIndex">ObjMinIndex()</a><br>
-      <a href="../objects/Object.htm#NewEnum">ObjNewEnum()</a><br>
-      <a href="../objects/Object.htm#Pop">ObjPop()</a><br>
-      <a href="../objects/Object.htm#Push">ObjPush()</a><br>
-      <a href="../objects/Object.htm#Remove">ObjRemove()</a><br>
-      <a href="../objects/Object.htm#RemoveAt">ObjRemoveAt()</a><br>
-      <a href="../objects/Object.htm#SetCapacity">ObjSetCapacity()</a><br>
+      <a href="Object.htm#Clone">ObjClone()</a><br>
+      <a href="Object.htm#Count">ObjCount()</a><br>
+      <a href="Object.htm#Delete">ObjDelete()</a><br>
+      <a href="Object.htm#GetAddress">ObjGetAddress()</a><br>
+      <a href="Object.htm#GetCapacity">ObjGetCapacity()</a><br>
+      <a href="Object.htm#HasKey">ObjHasKey()</a><br>
+      <a href="Object.htm#Insert">ObjInsert()</a><br>
+      <a href="Object.htm#InsertAt">ObjInsertAt()</a><br>
+      <a href="Object.htm#Length">ObjLength()</a><br>
+      <a href="Object.htm#MinMaxIndex">ObjMaxIndex()</a><br>
+      <a href="Object.htm#MinMaxIndex">ObjMinIndex()</a><br>
+      <a href="Object.htm#NewEnum">ObjNewEnum()</a><br>
+      <a href="Object.htm#Pop">ObjPop()</a><br>
+      <a href="Object.htm#Push">ObjPush()</a><br>
+      <a href="Object.htm#Remove">ObjRemove()</a><br>
+      <a href="Object.htm#RemoveAt">ObjRemoveAt()</a><br>
+      <a href="Object.htm#SetCapacity">ObjSetCapacity()</a><br>
     </td>
-    <td>These functions are equivalent to built-in methods of the <a href="../objects/Object.htm">Object</a> type. It is usually recommended to use the corresponding method instead.</td>
+    <td>These functions are equivalent to built-in methods of the <a href="Object.htm">Object</a> type. It is usually recommended to use the corresponding method instead.</td>
   </tr>
   <tr>
-    <td><a href="../objects/Object.htm#GetBase">ObjGetBase()</a></td>
+    <td><a href="Object.htm#GetBase">ObjGetBase()</a></td>
     <td>Retrieves an object's <a href="../Objects.htm#Custom_Objects">base object</a>.</td>
   </tr>
   <tr>
-    <td><a href="../objects/Object.htm#RawGet">ObjRawGet()</a></td>
+    <td><a href="Object.htm#RawGet">ObjRawGet()</a></td>
     <td>Retrieves a key-value pair from an object, bypassing the object's <a href="../Objects.htm#Meta_Functions">meta-functions</a>.</td>
   </tr>
   <tr>
-    <td><a href="../objects/Object.htm#RawSet">ObjRawSet()</a></td>
+    <td><a href="Object.htm#RawSet">ObjRawSet()</a></td>
     <td>Stores or overwrites a key-value pair in an object, bypassing the object's <a href="../Objects.htm#Meta_Functions">meta-functions</a>.</td>
   </tr>
   <tr>
-    <td><a href="../objects/Object.htm#SetBase">ObjSetBase()</a></td>
+    <td><a href="Object.htm#SetBase">ObjSetBase()</a></td>
     <td>Sets an object's <a href="../Objects.htm#Custom_Objects">base object</a>.</td>
   </tr>
   <tr>
     <td><a href="OnClipboardChange.htm#function">OnClipboardChange()</a></td>
-    <td>Registers a <a href="../Functions.htm">function</a> or <a href="../objects/Functor.htm">function object</a> to run whenever the clipboard's content changes.</td>
+    <td>Registers a <a href="../Functions.htm">function</a> or <a href="../misc/Functor.htm">function object</a> to run whenever the clipboard's content changes.</td>
   </tr>
   <tr>
     <td><a href="OnError.htm">OnError()</a></td>
@@ -754,7 +758,7 @@
   </tr>
   <tr>
     <td><a href="OnMessage.htm">OnMessage()</a></td>
-    <td>Specifies a <a href="../Functions.htm">function</a> or <a href="../objects/Functor.htm">function object</a> to call automatically when the script receives the specified message.</td>
+    <td>Specifies a <a href="../Functions.htm">function</a> or <a href="../misc/Functor.htm">function object</a> to call automatically when the script receives the specified message.</td>
   </tr>
   <tr>
     <td><a href="Ord.htm">Ord()</a></td>
@@ -826,7 +830,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Round">Round()</a></td>
-    <td>Returns <em>Number</em> rounded to <em>N</em> decimal places.</td>
+    <td>Returns the specified number rounded to <em>N</em> decimal places.</td>
   </tr>
   <tr>
     <td class="larger"><a href="Run.htm">Run</a></td>
@@ -838,8 +842,7 @@
   </tr>
   <tr>
     <td class="larger"><a href="Run.htm">RunWait</a></td>
-    <td>Runs an external program and waits until
-      it finishes.</td>
+    <td>Runs an external program and waits until it finishes.</td>
   </tr>
   <tr id="S">
     <td><a href="GuiControls.htm#SB_SetIcon">SB_SetIcon()</a><br />
@@ -933,7 +936,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Sin">Sin()</a></td>
-    <td>Returns the trigonometric sine of <em>Number</em>.</td>
+    <td>Returns the trigonometric sine of the specified number.</td>
   </tr>
   <tr>
     <td class="larger"><a href="Sleep.htm">Sleep</a></td>
@@ -981,7 +984,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Sqrt">Sqrt()</a></td>
-    <td>Returns the square root of <em>Number</em>.</td>
+    <td>Returns the square root of the specified number.</td>
   </tr>
   <tr>
     <td><a href="StatusBarGetText.htm">StatusBarGetText</a></td>
@@ -1005,8 +1008,7 @@
   </tr>
   <tr>
     <td><a href="StringLeft.htm">StringLeft</a></td>
-    <td>Retrieves a number of characters from the left-hand side of
-      a string.</td>
+    <td>Retrieves a number of characters from the left-hand side of a string.</td>
   </tr>
   <tr>
     <td><a href="StringLen.htm">StringLen</a></td>
@@ -1026,8 +1028,7 @@
   </tr>
   <tr>
     <td><a href="StringLeft.htm">StringRight</a></td>
-    <td>Retrieves a number of characters from the right-hand side of
-      a string.</td>
+    <td>Retrieves a number of characters from the right-hand side of a string.</td>
   </tr>
   <tr>
     <td><a href="StringSplit.htm">StringSplit</a></td>
@@ -1035,13 +1036,11 @@
   </tr>
   <tr>
     <td><a href="StringTrimLeft.htm">StringTrimLeft</a></td>
-    <td>Removes a number of characters from the left-hand side of a
-      string.</td>
+    <td>Removes a number of characters from the left-hand side of a string.</td>
   </tr>
   <tr>
     <td><a href="StringTrimLeft.htm">StringTrimRight</a></td>
-    <td>Removes a number of characters from the right-hand side of a
-      string.</td>
+    <td>Removes a number of characters from the right-hand side of a string.</td>
   </tr>
   <tr>
     <td><a href="StringLower.htm">StringUpper</a></td>
@@ -1081,7 +1080,7 @@
   </tr>
   <tr>
     <td><a href="Math.htm#Tan">Tan()</a></td>
-    <td>Returns the trigonometric tangent of <em>Number</em>.</td>
+    <td>Returns the trigonometric tangent of the specified number.</td>
   </tr>
   <tr>
     <td><a href="Thread.htm">Thread</a></td>
@@ -1145,6 +1144,10 @@
   <tr>
     <td><a href="VarSetCapacity.htm">VarSetCapacity()</a></td>
     <td>Enlarges a variable's holding capacity or frees its memory. Normally, this is necessary only for unusual circumstances such as <a href="DllCall.htm">DllCall()</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="VerCompare.htm">VerCompare()</a></td>
+    <td>Compares two version strings.</td>
   </tr>
   <tr id="W">
     <td class="larger"><a href="While.htm">While-loop</a></td>
