@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e" segtype="sentence" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -106,6 +106,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T214723Z" creationid="yo1el" creationdate="20210912T214723Z">
         <seg>&lt;a0&gt;Lenguaje de scripting&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;a0&gt;create a script file&lt;/a0&gt; → &lt;a1&gt;add some hotkeys&lt;/a1&gt; → run the script file.</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123307Z" creationid="Ragnar-F" creationdate="20230222T123307Z">
+        <seg>&lt;a0&gt;crear un archivo de secuencia de comandos&lt;/a0&gt; → &lt;a1&gt;agregar algunas teclas de acceso rápido&lt;/a1&gt; → ejecutar el script.</seg>
       </tuv>
     </tu>
     <tu>
@@ -246,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>AutoHotkey</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123223Z" creationid="Ragnar-F" creationdate="20230222T123223Z">
+        <seg>AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>AutoHotkey Beginner Tutorial &lt;s0&gt;by tidbit&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160103Z" creationid="yo1el" creationdate="20210921T160103Z">
@@ -274,6 +290,22 @@
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T075738Z" creationid="Ragnar-F" creationdate="20210912T075738Z">
         <seg>AutoHotkey.chm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Basically:</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123256Z" creationid="Ragnar-F" creationdate="20230222T123256Z">
+        <seg>Básicamente:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Before AutoHotkey can do anything, you need to write a script telling it what to do.</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123244Z" creationid="Ragnar-F" creationdate="20230222T123244Z">
+        <seg>Antes de que AutoHotkey pueda hacer algo, debe escribir un script que le diga qué hacer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -554,6 +586,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160857Z" creationid="yo1el" creationdate="20210921T160857Z">
         <seg>Juegos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123239Z" creationid="Ragnar-F" creationdate="20230222T123239Z">
+        <seg>Empezando</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,6 +1102,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Scripts.htm</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123245Z" creationid="Ragnar-F" creationdate="20230222T123245Z">
+        <seg>Scripts.htm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Scripts.htm#cmd</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123318Z" creationid="Ragnar-F" creationdate="20230222T123318Z">
+        <seg>Scripts.htm#cmd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Scripts.htm#defaultfile</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123319Z" creationid="Ragnar-F" creationdate="20230222T123319Z">
+        <seg>Scripts.htm#defaultfile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Search within all &lt;b0&gt;Program Files&lt;/b0&gt; folders for &lt;b1&gt;AutoHotkey&lt;/b1&gt;.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T220411Z" creationid="yo1el" creationdate="20210921T220411Z">
@@ -1294,6 +1358,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To learn how, read &lt;a0&gt;the tutorial&lt;/a0&gt; or &lt;a1&gt;dive straight in&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123249Z" creationid="Ragnar-F" creationdate="20230222T123249Z">
+        <seg>Para saber cómo, lea &lt;a0&gt;el tutorial&lt;/a0&gt; o &lt;a1&gt;empiece directamente&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Trial and Error</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T161536Z" creationid="yo1el" creationdate="20210921T161437Z">
@@ -1306,6 +1378,30 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210912T213304Z" creationid="yo1el" creationdate="20210912T213304Z">
         <seg>Tutorial para principiantes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tutorial.htm</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123244Z" creationid="Ragnar-F" creationdate="20230222T123244Z">
+        <seg>Tutorial.htm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tutorial.htm#s12</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123250Z" creationid="Ragnar-F" creationdate="20230222T123250Z">
+        <seg>Tutorial.htm#s12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tutorial.htm#s2</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123252Z" creationid="Ragnar-F" creationdate="20230222T123252Z">
+        <seg>Tutorial.htm#s2</seg>
       </tuv>
     </tu>
     <tu>
@@ -1350,6 +1446,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Welcome to AutoHotkey</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123217Z" creationid="Ragnar-F" creationdate="20230222T123217Z">
+        <seg>Bienvenido a AutoHotkey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Welcome...</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123230Z" creationid="Ragnar-F" creationdate="20230222T123230Z">
+        <seg>Bienvenido...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>What is a hotkey?</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T220849Z" creationid="yo1el" creationdate="20210921T220849Z">
@@ -1390,6 +1502,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Why am I seeing this?</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123317Z" creationid="Ragnar-F" creationdate="20230222T123317Z">
+        <seg>¿Por qué estoy viendo esto?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>WinActivate, Untitled - Notepad</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T225101Z" creationid="yo1el" creationdate="20210921T225101Z">
@@ -1414,6 +1534,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You can also get help or find many useful scripts on &lt;a0&gt;our friendly discussion forum&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123313Z" creationid="Ragnar-F" creationdate="20230222T123313Z">
+        <seg>También puede obtener ayuda o encontrar muchas secuencias de comandos útiles en &lt;a0&gt;nuestro amistoso foro de discusión&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You can copy and paste most examples on this page.</seg>
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T181010Z" creationid="yo1el" creationdate="20210921T175025Z">
@@ -1426,6 +1554,14 @@
       </tuv>
       <tuv lang="es" changeid="yo1el" changedate="20210921T160427Z" creationid="yo1el" creationdate="20210921T160427Z">
         <seg>No puedes combinar comandos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You ran AutoHotkey without &lt;a0&gt;telling it&lt;/a0&gt; which script file to run, and it couldn't find a script in either of &lt;a1&gt;the usual places&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123332Z" creationid="Ragnar-F" creationdate="20230222T123332Z">
+        <seg>Ejecutó AutoHotkey sin &lt;a0&gt;diciéndolo&lt;/a0&gt; decir que archivo de script ejecutar, y no pudo encontrar un script en ninguno de los &lt;a1&gt;sitios habituales&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1638,10 +1774,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>https://www.autohotkey.com/boards/</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123309Z" creationid="Ragnar-F" creationdate="20230222T123309Z">
+        <seg>https://www.autohotkey.com/boards/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>index.htm</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123219Z" creationid="Ragnar-F" creationdate="20230222T123219Z">
+        <seg>index.htm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>indexData = [</seg>
       </tuv>
       <tuv lang="es" changeid="Ragnar-F" changedate="20210912T080255Z" creationid="Ragnar-F" creationdate="20210912T080255Z">
         <seg>indexData = [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>static/ahk_logo.svg</seg>
+      </tuv>
+      <tuv lang="es" changeid="Ragnar-F" changedate="20230222T123224Z" creationid="Ragnar-F" creationdate="20230222T123224Z">
+        <seg>static/ahk_logo.svg</seg>
       </tuv>
     </tu>
     <tu>
